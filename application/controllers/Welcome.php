@@ -30,7 +30,7 @@ class Welcome extends CI_Controller {
 
 		$table = "product_m as p_m, product_img as p_i";
 		$where = "p_m.prod_no=p_i.prod_no";
-		$view_data['ranking'] = $this->product_model->get_where_limit($table, $where, $start, $end);//排行照片
+		$view_data['ranking'] = $this->product_model->get_where_limit($table, $where, $end, $start);//排行照片
 		$this->load->view('index', $view_data);
 	}
 }
