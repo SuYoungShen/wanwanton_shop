@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -353,6 +353,171 @@
 														</div>
 													</div>
 												</li>
+												<li class="item-vertical style1 with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="assets/image/theme/icons/9.png" alt="icon">
+														<span>消費館</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="100" >
+														<div class="content" >
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="row">
+																		<div class="col-md-6 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">台灣會員購買專區</a>
+																						<ul>
+																							<li><a href="#" >生活用品</a></li>
+																							<li><a href="#" >美食飲品</a></li>
+																							<li><a  href="#" >身體保養</a></li>
+																							<li><a href="#" >流行服飾</a></li>
+																							<li><a href="#" >毛小孩商品</a></li>
+																						</ul>
+																					</li>
+																					<!-- <li>
+																						<a href="#"  class="main-menu">Cables &amp; Connectors</a>
+																						<ul>
+																							<li><a href="#" >Cameras &amp; Photo</a></li>
+																							<li><a href="#" >Electronics</a></li>
+																							<li><a href="#" >Outdoor &amp; Traveling</a></li>
+																						</ul>
+																					</li> -->
+																				</ul>
+																			</div>
+																		</div>
+																		<div class="col-md-6 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">大陸會員購買專區</a>
+																						<ul>
+																							<li><a href="#" >生活用品</a></li>
+																							<li><a href="#" >美食飲品</a></li>
+																							<li><a href="#" >身體保養</a></li>
+																							<li><a href="#" >流行服飾</a></li>
+																						</ul>
+																					</li>
+																					<!-- <li>
+																						<a href="#" class="main-menu">Smartphone &amp; Tablets</a>
+																						<ul>
+																							<li><a href="#" >Sports &amp; Outdoors</a></li>
+																							<li><a href="#" >Bath &amp; Body</a></li>
+																							<li><a href="#" >Gadgets &amp; Auto Parts</a></li>
+																						</ul>
+																					</li> -->
+																				</ul>
+																			</div>
+																		</div>
+																		<!-- <div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">Bags, Holiday Supplies</a>
+																						<ul>
+																							<li><a href="#" onclick="window.location = '18_46';">Battereries &amp; Chargers</a></li>
+																							<li><a href="#" onclick="window.location = '24_64';">Bath &amp; Body</a></li>
+																							<li><a href="#" onclick="window.location = '18_45';">Headphones, Headsets</a></li>
+																							<li><a href="#" onclick="window.location = '18_30';">Home Audio</a></li>
+																						</ul>
+																					</li>
+																				</ul>
+																			</div>
+																		</div> -->
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+
+												<li class="item-vertical style1 with-sub-menu hover">
+													<p class="close-menu"></p>
+													<a href="#" class="clearfix">
+														<img src="assets/image/theme/icons/9.png" alt="icon">
+														<span>入會禮</span>
+														<b class="caret"></b>
+													</a>
+													<div class="sub-menu" data-subwidth="100" >
+														<div class="content" >
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="row">
+																		<div class="col-md-6 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">台灣會員購買專區</a>
+																						<ul>
+																							<li><a href="#" >生活用品</a></li>
+																							<li><a href="#" >美食飲品</a></li>
+																							<li><a  href="#" >身體保養</a></li>
+																							<li><a href="#" >流行服飾</a></li>
+																							<li><a href="#" >毛小孩商品</a></li>
+																						</ul>
+																					</li>
+																					<!-- <li>
+																						<a href="#"  class="main-menu">Cables &amp; Connectors</a>
+																						<ul>
+																							<li><a href="#" >Cameras &amp; Photo</a></li>
+																							<li><a href="#" >Electronics</a></li>
+																							<li><a href="#" >Outdoor &amp; Traveling</a></li>
+																						</ul>
+																					</li> -->
+																				</ul>
+																			</div>
+																		</div>
+																		<div class="col-md-6 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">大陸會員購買專區</a>
+																						<ul>
+																							<li><a href="#" >生活用品</a></li>
+																							<li><a href="#" >美食飲品</a></li>
+																							<li><a href="#" >身體保養</a></li>
+																							<li><a href="#" >流行服飾</a></li>
+																						</ul>
+																					</li>
+																					<!-- <li>
+																						<a href="#" class="main-menu">Smartphone &amp; Tablets</a>
+																						<ul>
+																							<li><a href="#" >Sports &amp; Outdoors</a></li>
+																							<li><a href="#" >Bath &amp; Body</a></li>
+																							<li><a href="#" >Gadgets &amp; Auto Parts</a></li>
+																						</ul>
+																					</li> -->
+																				</ul>
+																			</div>
+																		</div>
+																		<!-- <div class="col-md-4 static-menu">
+																			<div class="menu">
+																				<ul>
+																					<li>
+																						<a href="#"  class="main-menu">Bags, Holiday Supplies</a>
+																						<ul>
+																							<li><a href="#" onclick="window.location = '18_46';">Battereries &amp; Chargers</a></li>
+																							<li><a href="#" onclick="window.location = '24_64';">Bath &amp; Body</a></li>
+																							<li><a href="#" onclick="window.location = '18_45';">Headphones, Headsets</a></li>
+																							<li><a href="#" onclick="window.location = '18_30';">Home Audio</a></li>
+																						</ul>
+																					</li>
+																				</ul>
+																			</div>
+																		</div> -->
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</li>
+
+
+
+
 												<li class="item-vertical style1 with-sub-menu hover">
 													<p class="close-menu"></p>
 													<a href="#" class="clearfix">
@@ -768,12 +933,11 @@
 					<div class="container">
 						<ul class="megamenu " data-transition="slide" data-animationtime="250">
 							<li class="home hover">
-
-								<a href="index.html">Home <b class="caret"></b></a>
+								<a href="index.html">首頁<b class="caret"></b></a>
 								<div class="sub-menu" style="width:100%;" >
 									<div class="content" >
 										<div class="row">
-											<div class="col-md-3">
+											<!-- <div class="col-md-3">
 												<a href="index.html" class="image-link">
 													<span class="thumbnail">
 														<img class="img-responsive img-border" src="assets/image/demo/feature/home-1.jpg" alt="">
@@ -782,8 +946,8 @@
 													<h3 class="figcaption">Home page - (Default)</h3>
 												</a>
 
-											</div>
-											<div class="col-md-3">
+											</div> -->
+											<!-- <div class="col-md-3">
 												<a href="#" class="image-link">
 													<span class="thumbnail">
 														<img class="img-responsive img-border" src="assets/image/demo/feature/home-2.jpg" alt="">
@@ -792,8 +956,8 @@
 													<h3 class="figcaption">Home page - Layout 2</h3>
 												</a>
 
-											</div>
-											<div class="col-md-3">
+											</div> -->
+											<!-- <div class="col-md-3">
 												<a href="#" class="image-link">
 													<span class="thumbnail">
 														<img class="img-responsive img-border" src="assets/image/demo/feature/home-3.jpg" alt="">
@@ -802,8 +966,8 @@
 													<h3 class="figcaption">Home page - Layout 3</h3>
 												</a>
 
-											</div>
-											<div class="col-md-3">
+											</div> -->
+											<!-- <div class="col-md-3">
 												<a href="#" class="image-link">
 													<span class="thumbnail">
 														<img class="img-responsive img-border" src="assets/image/demo/feature/home-4.jpg" alt="">
@@ -812,7 +976,7 @@
 													<h3 class="figcaption">Home page - Layout 4</h3>
 												</a>
 
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>
