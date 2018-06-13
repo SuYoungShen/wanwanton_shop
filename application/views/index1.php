@@ -60,21 +60,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden">
-				<!-- <div class="form-group languages-block ">
+				<div class="form-group languages-block ">
 					<form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
 						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-							<img src="assets/assets/image/demo/flags/gb.png" alt="English" title="English">
+							<img src="assets/image/demo/flags/gb.png" alt="English" title="English">
 							<span class="">English</span>
 							<span class="fa fa-angle-down"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="index.html"><img class="image_flag" src="assets/assets/image/demo/flags/gb.png" alt="English" title="English" /> English </a></li>
-							<li> <a href="index.html"> <img class="image_flag" src="assets/assets/image/demo/flags/lb.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
+							<li><a href="index.html"><img class="image_flag" src="assets/image/demo/flags/gb.png" alt="English" title="English" /> English </a></li>
+							<li> <a href="index.html"> <img class="image_flag" src="assets/image/demo/flags/lb.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
 						</ul>
 					</form>
-				</div> -->
+				</div>
 
-				<!-- <div class="form-group currencies-block">
+				<div class="form-group currencies-block">
 					<form action="index.html" method="post" enctype="multipart/form-data" id="currency">
 						<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
 							<span class="icon icon-credit "></span> US Dollar <span class="fa fa-angle-down"></span>
@@ -85,22 +85,22 @@
 							<li> <a href="#">($)&nbsp;US Dollar	</a></li>
 						</ul>
 					</form>
-				</div> -->
+				</div>
 			</div>
 			<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-12 compact-hidden">
 				<h5 class="tabBlockTitle visible-xs">More<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
 				<div class="tabBlock" id="TabBlock-1">
 					<ul class="top-link list-inline">
 						<li class="account" id="my_account">
-							<a href="#" title="我的帳戶" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >My Account</span> <span class="fa fa-angle-down"></span></a>
+							<a href="#" title="My Account" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >My Account</span> <span class="fa fa-angle-down"></span></a>
 							<ul class="dropdown-menu ">
-								<li><a href="register.html"><i class="fa fa-user"></i>註冊</a></li>
-								<li><a href="login.html"><i class="fa fa-pencil-square-o"></i>登入</a></li>
+								<li><a href="register.html"><i class="fa fa-user"></i> Register</a></li>
+								<li><a href="login.html"><i class="fa fa-pencil-square-o"></i> Login</a></li>
 							</ul>
 						</li>
-						<!-- <li class="wishlist"><a href="#" id="wishlist-total" class="top-link-wishlist" title="Wish List (2)"><span>Wish List (2)</span></a></li>
-						<li class="checkout"><a href="#" class="top-link-checkout" title="Checkout"><span >Checkout</span></a></li> -->
-						<li class="login"><a href="#" title="Shopping Cart"><span >購物車</span></a></li>
+						<li class="wishlist"><a href="#" id="wishlist-total" class="top-link-wishlist" title="Wish List (2)"><span>Wish List (2)</span></a></li>
+						<li class="checkout"><a href="#" class="top-link-checkout" title="Checkout"><span >Checkout</span></a></li>
+						<li class="login"><a href="#" title="Shopping Cart"><span >Shopping Cart</span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,13 +114,13 @@
 	<div class="container">
 		<div class="row">
 			<!-- Logo -->
-			<div class="navbar-logo col-md-3 col-sm-6 col-xs-6">
+			<div class="navbar-logo col-md-3 col-sm-12 col-xs-12">
 				<a href="index.html"><img src="assets/image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
 			</div>
 			<!-- //end Logo -->
 
 			<!-- Search -->
-			<!-- <div id="sosearchpro" class="col-sm-7 search-pro">
+			<div id="sosearchpro" class="col-sm-7 search-pro">
 				<form method="GET" action="index.html">
 					<div id="search0" class="search input-group">
 						<div class="select_category filter_type icon-select">
@@ -146,18 +146,18 @@
 					</div>
 					<input type="hidden" name="route" value="product/search" />
 				</form>
-			</div> -->
+			</div>
 			<!-- //end Search -->
 
 			<!-- Secondary menu -->
-			<div class="col-md-2 col-sm-6 col-xs-6 shopping_cart pull-right">
+			<div class="col-md-2 col-sm-5 col-xs-12 shopping_cart pull-right">
 				<!--cart-->
 				<div id="cart" class=" btn-group btn-shopping-cart">
 					<a data-loading-text="Loading..." class="top_cart dropdown-toggle" data-toggle="dropdown">
 						<div class="shopcart">
 							<span class="handle pull-left"></span>
 							<span class="title">My cart</span>
-							<p class="text-shopping-cart cart-total-full"></p>
+							<p class="text-shopping-cart cart-total-full">2 item(s) - $1,262.00 </p>
 						</div>
 					</a>
 
@@ -256,7 +256,7 @@
 													<span></span>
 													<span></span>
 												</div>
-												查看分類
+												All Categories
 												<i class="fa pull-right arrow-circle fa-chevron-circle-up"></i>
 											</div>
 										</div>
@@ -266,7 +266,7 @@
 									<button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle fa fa-list-alt">
 
 									</button>
-									查看分類
+									All Categories
 								</div>
 								<div class="vertical-wrapper" >
 									<span id="remove-verticalmenu" class="fa fa-times"></span>
@@ -277,7 +277,7 @@
 													<p class="close-menu"></p>
 													<a href="#" class="clearfix">
 														<img src="assets/image/theme/icons/9.png" alt="icon">
-														<span>概念館</span>
+														<span>Automotive &amp; Motocrycle</span>
 														<b class="caret"></b>
 													</a>
 													<div class="sub-menu" data-subwidth="100" >
@@ -285,115 +285,36 @@
 															<div class="row">
 																<div class="col-sm-12">
 																	<div class="row">
-																		<div class="col-md-6 static-menu">
+																		<div class="col-md-4 static-menu">
 																			<div class="menu">
 																				<ul>
 																					<li>
-																						<a href="#"  class="main-menu">台灣會員購買專區</a>
+																						<a href="#"  class="main-menu">Apparel</a>
 																						<ul>
-																							<li><a href="#" >生活用品</a></li>
-																							<li><a href="#" >美食飲品</a></li>
-																							<li><a  href="#" >身體保養</a></li>
-																							<li><a href="#" >流行服飾</a></li>
-																							<li><a href="#" >毛小孩商品</a></li>
+																							<li><a href="#" >Accessories for Tablet PC</a></li>
+																							<li><a href="#" >Accessories for i Pad</a></li>
+																							<li><a  href="#" >Accessories for iPhone</a></li>
+																							<li><a href="#" >Bags, Holiday Supplies</a></li>
+																							<li><a href="#" >Car Alarms and Security</a></li>
+																							<li><a href="#" >Car Audio &amp; Speakers</a></li>
 																						</ul>
 																					</li>
-																					<!-- <li>
+																					<li>
 																						<a href="#"  class="main-menu">Cables &amp; Connectors</a>
 																						<ul>
 																							<li><a href="#" >Cameras &amp; Photo</a></li>
 																							<li><a href="#" >Electronics</a></li>
 																							<li><a href="#" >Outdoor &amp; Traveling</a></li>
 																						</ul>
-																					</li> -->
-																				</ul>
-																			</div>
-																		</div>
-																		<div class="col-md-6 static-menu">
-																			<div class="menu">
-																				<ul>
-																					<li>
-																						<a href="#"  class="main-menu">大陸會員購買專區</a>
-																						<ul>
-																							<li><a href="#" >生活用品</a></li>
-																							<li><a href="#" >美食飲品</a></li>
-																							<li><a href="#" >身體保養</a></li>
-																							<li><a href="#" >流行服飾</a></li>
-																						</ul>
-																					</li>
-																					<!-- <li>
-																						<a href="#" class="main-menu">Smartphone &amp; Tablets</a>
-																						<ul>
-																							<li><a href="#" >Sports &amp; Outdoors</a></li>
-																							<li><a href="#" >Bath &amp; Body</a></li>
-																							<li><a href="#" >Gadgets &amp; Auto Parts</a></li>
-																						</ul>
-																					</li> -->
-																				</ul>
-																			</div>
-																		</div>
-																		<!-- <div class="col-md-4 static-menu">
-																			<div class="menu">
-																				<ul>
-																					<li>
-																						<a href="#"  class="main-menu">Bags, Holiday Supplies</a>
-																						<ul>
-																							<li><a href="#" onclick="window.location = '18_46';">Battereries &amp; Chargers</a></li>
-																							<li><a href="#" onclick="window.location = '24_64';">Bath &amp; Body</a></li>
-																							<li><a href="#" onclick="window.location = '18_45';">Headphones, Headsets</a></li>
-																							<li><a href="#" onclick="window.location = '18_30';">Home Audio</a></li>
-																						</ul>
 																					</li>
 																				</ul>
 																			</div>
-																		</div> -->
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</li>
-												<li class="item-vertical style1 with-sub-menu hover">
-													<p class="close-menu"></p>
-													<a href="#" class="clearfix">
-														<img src="assets/image/theme/icons/9.png" alt="icon">
-														<span>夢想館</span>
-														<b class="caret"></b>
-													</a>
-													<div class="sub-menu" data-subwidth="100" >
-														<div class="content" >
-															<div class="row">
-																<div class="col-sm-12">
-																	<div class="row">
-																		<div class="col-md-6 static-menu">
-																			<div class="menu">
-																				<ul>
-																					<li>
-																						<!-- <a href="#"  class="main-menu">台灣會員購買專區</a>
-																						<ul> -->
-																							<li><a href="#" >生活小物</a></li>
-																							<li><a href="#" >廚房用品</a></li>
-																							<li><a  href="#" >美食飲品</a></li>
-																							<li><a href="#" >身體保養</a></li>
-																							<li><a href="#" >課程卷</a></li>
-																						<!-- </ul>
-																					</li> -->
-																					<!-- <li>
-																						<a href="#"  class="main-menu">Cables &amp; Connectors</a>
-																						<ul>
-																							<li><a href="#" >Cameras &amp; Photo</a></li>
-																							<li><a href="#" >Electronics</a></li>
-																							<li><a href="#" >Outdoor &amp; Traveling</a></li>
-																						</ul>
-																					</li> -->
-																				</ul>
-																			</div>
 																		</div>
-																		<!-- <div class="col-md-6 static-menu">
+																		<div class="col-md-4 static-menu">
 																			<div class="menu">
 																				<ul>
 																					<li>
-																						<a href="#"  class="main-menu">大陸會員購買專區</a>
+																						<a href="#"  class="main-menu">Camping &amp; Hiking</a>
 																						<ul>
 																							<li><a href="#" >Earings</a></li>
 																							<li><a href="#" >Shaving &amp; Hair Removal</a></li>
@@ -410,8 +331,8 @@
 																					</li>
 																				</ul>
 																			</div>
-																		</div> -->
-																		<!-- <div class="col-md-4 static-menu">
+																		</div>
+																		<div class="col-md-4 static-menu">
 																			<div class="menu">
 																				<ul>
 																					<li>
@@ -425,22 +346,22 @@
 																					</li>
 																				</ul>
 																			</div>
-																		</div> -->
+																		</div>
 																	</div>
 																</div>
 															</div>
 														</div>
 													</div>
 												</li>
-												<!-- <li class="item-vertical">
+												<li class="item-vertical">
 													<p class="close-menu"></p>
 													<a href="#" class="clearfix">
 														<img src="assets/image/theme/icons/10.png" alt="icon">
 														<span>Electronic</span>
 
 													</a>
-												</li> -->
-												<!-- <li class="item-vertical with-sub-menu hover">
+												</li>
+												<li class="item-vertical with-sub-menu hover">
 													<p class="close-menu"></p>
 													<a href="#" class="clearfix">
 														<span class="label"></span>
@@ -626,8 +547,8 @@
 																</div>
 															</div>
 														</div>
-													</li> -->
-													<!-- <li class="item-vertical css-menu with-sub-menu hover">
+													</li>
+													<li class="item-vertical css-menu with-sub-menu hover">
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 
@@ -635,7 +556,7 @@
 															<span>Smartphone &amp; Tablets</span>
 															<b class="caret"></b>
 														</a>
-														 <div class="sub-menu" data-subwidth="30" style="width: 270px; display: none; right: 0px;">
+														<div class="sub-menu" data-subwidth="30" style="width: 270px; display: none; right: 0px;">
 															<div class="content" style="display: none;">
 																<div class="row">
 																	<div class="col-sm-12">
@@ -666,34 +587,34 @@
 																</div>
 															</div>
 														</div>
-													</li> -->
-													<!-- <li class="item-vertical">
+													</li>
+													<li class="item-vertical">
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/11.png" alt="icon">
 															<span>Flashlights &amp; Lamps</span>
 
 														</a>
-													</li> -->
+													</li>
 													<li class="item-vertical">
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/4.png" alt="icon">
-															<span>食品</span>
+															<span>Camera &amp; Photo</span>
 														</a>
 													</li>
 													<li class="item-vertical">
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/5.png" alt="icon">
-															<span>飲品</span>
+															<span>Smartphone &amp; Tablets</span>
 														</a>
 													</li>
 													<li class="item-vertical" >
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/7.png" alt="icon">
-															<span>戶外用品</span>
+															<span>Outdoor &amp; Traveling Supplies</span>
 														</a>
 													</li>
 													<li class="item-vertical" style="display: none;">
@@ -701,31 +622,31 @@
 
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/6.png" alt="icon">
-															<span>健康食品</span>
+															<span>Health &amp; Beauty</span>
 														</a>
 													</li>
 													<li class="item-vertical" >
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/8.png" alt="icon">
-															<span>玩具</span>
+															<span>Toys &amp; Hobbies </span>
 														</a>
 													</li>
 													<li class="item-vertical" >
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/12.png" alt="icon">
-															<span>珠寶、手錶</span>
+															<span>Jewelry &amp; Watches</span>
 														</a>
 													</li>
 													<li class="item-vertical" >
 														<p class="close-menu"></p>
 														<a href="#" class="clearfix">
 															<img src="assets/image/theme/icons/13.png" alt="icon">
-															<span>驚喜優惠</span>
+															<span>Bags, Holiday Supplies</span>
 														</a>
 													</li>
-													<!-- <li class="item-vertical" >
+													<li class="item-vertical" >
 														<p class="close-menu"></p>
 
 														<a href="#" class="clearfix">
@@ -736,7 +657,7 @@
 													<li class="loadmore">
 														<i class="fa fa-plus-square-o"></i>
 														<span class="more-view">More Categories</span>
-													</li> -->
+													</li>
 												</ul>
 											</div>
 										</div>
@@ -759,7 +680,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				選單
+				Navigation
 			</div>
 
 			<div class="megamenu-wrapper">
@@ -1179,15 +1100,13 @@
 						<div class="module first-block">
 							<div class="modcontent clearfix">
 								<div id="custom_popular_search" class="clearfix">
-									<!-- <h5 class="so-searchbox-popular-title pull-left">Top Search:</h5>
+									<h5 class="so-searchbox-popular-title pull-left">Top Search:</h5>
 									<div class="so-searchbox-keyword">
 										<ul class="list-inline"><li>&nbsp;<a href="#">Acer,</a></li><li><a href="#">APPLE,</a></li><li><a href="#">Black,</a></li><li><a href="#">Canon,</a></li><li><a href="#">Cogs,</a></li><li><a href="#">Confi,</a></li><li><a href="#">Kate,</a></li><li><a href="#">Lor,</a></li><li><a href="#">Product,</a></li><li><a href="#">Zolof The Rock And Roll Destroyer</a></li></ul>
-									</div> -->
+									</div>
 								</div>
 							</div>
 						</div>
-
-
 						<div id="so-slideshow" class="col-lg-8 col-md-8 col-sm-12 col-xs-12 two-block">
 							<div class="module slideshow no-margin">
 								<div class="item">
@@ -1203,7 +1122,7 @@
 							<div class="loadeding"></div>
 						</div>
 
-<!-- 輪播圖 START -->
+
 						<div class="module col-md-4  hidden-sm hidden-xs three-block ">
 							<div class="modcontent clearfix">
 								<div class="htmlcontent-block">
@@ -1233,20 +1152,20 @@
 								</div>
 							</div>
 						</div>
-<!-- 輪播圖 END -->
-						<!-- <div class="module hidden-xs col-sm-12 four-block">
+
+						<div class="module hidden-xs col-sm-12 four-block">
 							<div class="modcontent clearfix">
 								<div class="policy-detail">
-									<div class="banner-policy text-center">
-										<div class="policy policy1"><a href="#"> <span class="ico-policy"></span> 7天鑑賞期 </a>
-										<div class="policy policy2"><a href="#"> <span class="ico-policy"></span>可查看物流進度 </a></div>
-										<div class="policy policy3"><a href="#"> <span class="ico-policy"></span> 價格划算</a></div>
-										 <div class="policy policy4"><a href="#"> <span class="ico-policy">&nbsp;</span> shopping guarantee </a></div>
+									<div class="banner-policy">
+										<div class="policy policy1"><a href="#"> <span class="ico-policy">&nbsp;</span> 90 day <br> money back </a></div>
+										<div class="policy policy2"><a href="#"> <span class="ico-policy">&nbsp;</span> In-store exchange </a></div>
+										<div class="policy policy3"><a href="#"> <span class="ico-policy">&nbsp;</span> lowest price guarantee </a></div>
+										<div class="policy policy4"><a href="#"> <span class="ico-policy">&nbsp;</span> shopping guarantee </a></div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1259,7 +1178,7 @@
 			<div id="content" class="col-sm-12">
 
 <div class="module tab-slider titleLine">
-	<h1 class="modtitle">熱門商品</h1>
+	<h3 class="modtitle">Featured Product</h3>
 	<div id="so_listing_tabs_1" class="so-listing-tabs first-load module">
 		<div class="loadeding"></div>
 		<div class="ltabs-wrap">
@@ -1269,34 +1188,36 @@
 				<span class="ltabs-tab-selected">Jewelry &amp; Watches	</span> <span class="ltabs-tab-arrow">▼</span>
 					<div class="item-sub-cat">
 						<ul class="ltabs-tabs cf">
-							<li class="ltabs-tab tab-sel" data-category-id="20" data-active-content=".items-category-20"> <span class="ltabs-tab-label">入會禮</span> </li>
-							<li class="ltabs-tab " data-category-id="18" data-active-content=".items-category-18"> <span class="ltabs-tab-label">概念館</span> </li>
-							<li class="ltabs-tab " data-category-id="25" data-active-content=".items-category-25"> <span class="ltabs-tab-label">消費館</span> </li>
+							<li class="ltabs-tab tab-sel" data-category-id="20" data-active-content=".items-category-20"> <span class="ltabs-tab-label">Jewelry &amp; Watches						</span> </li>
+							<li class="ltabs-tab " data-category-id="18" data-active-content=".items-category-18"> <span class="ltabs-tab-label">Electronics		</span> </li>
+							<li class="ltabs-tab " data-category-id="25" data-active-content=".items-category-25"> <span class="ltabs-tab-label">Sports &amp; Outdoors	</span> </li>
 						</ul>
 					</div>
 				</div>
 				<!-- End Tabs-->
 			</div>
+
 			<div class="ltabs-items-container">
 				<!--Begin Items-->
 				<div class="ltabs-items ltabs-items-selected items-category-20 grid" data-total="10">
 					<div class="ltabs-items-inner ltabs-slider ">
+            <?php for($i=0; $i <= 4; $i++){ ?>
 						<div class="ltabs-item product-layout">
 							<div class="product-item-container">
 								<div class="left-block">
 									<div class="product-image-container second_img ">
-										<img src="assets/image/demo/shop/product/J9.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
+										<img src="assets/image/demo/shop/product/prod_img/<?=$ranking[$i]["name"];?>"  alt="Apple Cinema 30&quot;" class="img-responsive" />
 										<img src="assets/image/demo/shop/product/J5.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
 									</div>
-									<!--Sale Label-->
+
 									<span class="label label-sale">Sale</span>
-									<!--full quick view block-->
+
 									<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
-									<!--end full quick view block-->
+
 								</div>
 								<div class="right-block">
 									<div class="caption">
-										<h4><a href="product.html">Cupim Bris</a></h4>
+                    <h4><a href="product.html"><?=$ranking[$i]["prod_name"];?></a></h4>
 										<div class="ratings">
 											<div class="rating-box">
 												<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
@@ -1308,8 +1229,8 @@
 										</div>
 
 										<div class="price">
-											<span class="price-new">$50.00</span>
-											<span class="price-old">$62.00</span>
+											<span class="price-new">會員價:US$<?=$ranking[$i]["staff_price"];?></span>
+											<span class="price-old">US$<?=$ranking[$i]["normal_price"];?></span>
 										</div>
 									</div>
 
@@ -1318,21 +1239,22 @@
 										<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
 										<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
 									  </div>
-								</div><!-- right block -->
+								</div>
 							</div>
 						</div>
-						<div class="ltabs-item product-layout">
+          <?php } ?>
+						<!-- <div class="ltabs-item product-layout">
 							<div class="product-item-container">
 								<div class="left-block">
 									<div class="product-image-container second_img ">
 										<img src="assets/image/demo/shop/product/m1.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
 										<img src="assets/image/demo/shop/product/m3.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
 									</div>
-									<!--New Label-->
+
 									<span class="label label-new">New</span>
-									<!--full quick view block-->
+
 									<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
-									<!--end full quick view block-->
+
 								</div>
 								<div class="right-block">
 									<div class="caption">
@@ -1357,21 +1279,21 @@
 										<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
 										<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
 									  </div>
-								</div><!-- right block -->
+								</div>
 							</div>
-						</div>
-						<div class="ltabs-item product-layout">
+						</div> -->
+						<!-- <div class="ltabs-item product-layout">
 							<div class="product-item-container">
 								<div class="left-block">
 									<div class="product-image-container second_img ">
 										<img src="assets/image/demo/shop/product/B10.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
 										<img src="assets/image/demo/shop/product/B9.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
 									</div>
-									<!--Sale Label-->
+
 									<span class="label label-sale">Sale</span>
-									<!--full quick view block-->
+
 									<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
-									<!--end full quick view block-->
+
 								</div>
 								<div class="right-block">
 									<div class="caption">
@@ -1396,10 +1318,10 @@
 										<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
 										<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
 									  </div>
-								</div><!-- right block -->
+								</div>
 							</div>
-						</div>
-						<div class="ltabs-item product-layout">
+						</div> -->
+						<!-- <div class="ltabs-item product-layout">
 							<div class="product-item-container">
 								<div class="left-block">
 									<div class="product-image-container second_img ">
@@ -1407,9 +1329,8 @@
 										<img src="assets/image/demo/shop/product/w10.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
 									</div>
 
-									<!--full quick view block-->
 									<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
-									<!--end full quick view block-->
+
 								</div>
 								<div class="right-block">
 									<div class="caption">
@@ -1434,10 +1355,10 @@
 										<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
 										<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
 									  </div>
-								</div><!-- right block -->
+								</div>
 							</div>
-						</div>
-						<div class="ltabs-item product-layout">
+						</div> -->
+						<!-- <div class="ltabs-item product-layout">
 							<div class="product-item-container">
 								<div class="left-block">
 									<div class="product-image-container second_img ">
@@ -1445,9 +1366,9 @@
 										<img src="assets/image/demo/shop/product/B10.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
 									</div>
 
-									<!--full quick view block-->
+
 									<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  Quickview</a>
-									<!--end full quick view block-->
+
 								</div>
 								<div class="right-block">
 									<div class="caption">
@@ -1472,9 +1393,9 @@
 										<button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
 										<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
 									  </div>
-								</div><!-- right block -->
+								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 
 				</div>
@@ -1888,7 +1809,7 @@
 					</div>
 				</div>
 				<div class="module tab-slider titleLine">
-	<h3 class="modtitle">最新商品</h3>
+	<h3 class="modtitle">New Products</h3>
 	<div id="so_listing_tabs_2" class="so-listing-tabs first-load module">
 		<div class="loadeding"></div>
 		<div class="ltabs-wrap ">
@@ -1898,9 +1819,9 @@
 				<span class="ltabs-tab-selected">Jewelry &amp; Watches	</span> <span class="ltabs-tab-arrow">▼</span>
 					<div class="item-sub-cat">
 						<ul class="ltabs-tabs cf">
-							<li class="ltabs-tab tab-sel" data-category-id="1" data-active-content=".items-category-1"> <span class="ltabs-tab-label">入會禮</span> </li>
-							<li class="ltabs-tab " data-category-id="2" data-active-content=".items-category-2"> <span class="ltabs-tab-label">概念館</span> </li>
-							<li class="ltabs-tab " data-category-id="3" data-active-content=".items-category-3"> <span class="ltabs-tab-label">消費館</span> </li>
+							<li class="ltabs-tab tab-sel" data-category-id="1" data-active-content=".items-category-1"> <span class="ltabs-tab-label">Jewelry &amp; Watches						</span> </li>
+							<li class="ltabs-tab " data-category-id="2" data-active-content=".items-category-2"> <span class="ltabs-tab-label">Electronics		</span> </li>
+							<li class="ltabs-tab " data-category-id="3" data-active-content=".items-category-3"> <span class="ltabs-tab-label">Sports &amp; Outdoors	</span> </li>
 						</ul>
 					</div>
 				</div>
@@ -2655,13 +2576,13 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-3 box-information">
 						<div class="module clearfix">
-							<h3 class="modtitle">相關資訊</h3>
+							<h3 class="modtitle">Information</h3>
 							<div class="modcontent">
 								<ul class="menu">
-									<li><a href="#">關於XXX</a></li>
-									<li><a href="#">常見問題</a></li>
-									<li><a href="#">聯繫客服</a></li>
-									<li><a href="#">line@帳號</a></li>
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Order history</a></li>
+									<li><a href="#">Order information</a></li>
 								</ul>
 							</div>
 						</div>
@@ -2669,14 +2590,13 @@
 
 					<div class="col-sm-6 col-md-3 box-service">
 						<div class="module clearfix">
-							<h3 class="modtitle">消費者指南</h3>
+							<h3 class="modtitle">Customer Service</h3>
 							<div class="modcontent">
 								<ul class="menu">
-									<li><a href="#">註冊帳戶</a></li>
-									<li><a href="#">購買教學</a></li>
-									<li><a href="#">付款方式</a></li>
-									<li><a href="#">國際運送</a></li>
-                  <li><a href="#">退換貨處理</a></li>
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Returns</a></li>
+									<li><a href="#">Site Map</a></li>
+									<li><a href="#">My Account</a></li>
 								</ul>
 							</div>
 						</div>
@@ -2684,14 +2604,14 @@
 
 					<div class="col-sm-6 col-md-3 box-account">
 						<div class="module clearfix">
-							<h3 class="modtitle">商家指南</h3>
+							<h3 class="modtitle">My Account</h3>
 							<div class="modcontent">
 								<ul class="menu">
-									<li><a href="#">成為商家</a></li>
-									<li><a href="#">商家條款</a></li>
-									<li><a href="#">物流服務</a></li>
-									<!-- <li><a href="#"></a></li> -->
-									<!-- <li><a href="#" target="_blank">Our Blog</a></li> -->
+									<li><a href="#">Brands</a></li>
+									<li><a href="#">Gift Vouchers</a></li>
+									<li><a href="#">Affiliates</a></li>
+									<li><a href="#">Specials</a></li>
+									<li><a href="#" target="_blank">Our Blog</a></li>
 								</ul>
 							</div>
 						</div>
@@ -2699,18 +2619,18 @@
 
 					<div class="col-sm-6 col-md-3 collapsed-block ">
 						<div class="module clearfix">
-							<h3 class="modtitle">運送地區</h3>
+							<h3 class="modtitle">Contact Us	</h3>
 							<div class="modcontent">
 								<ul class="contact-address">
-									<li><span class="fa fa-map-marker"></span>台灣|大陸</li>
-									<!-- <li><span class="fa fa-envelope-o"></span> Email: <a href="#"> sales@yourcompany.com</a></li>
-									<li><span class="fa fa-phone">&nbsp;</span> Phone 1: 0123456789 <br>Phone 2: (123) 4567890</li> -->
+									<li><span class="fa fa-map-marker"></span> My Company, 42 avenue des Champs Elysées 75000 Paris France</li>
+									<li><span class="fa fa-envelope-o"></span> Email: <a href="#"> sales@yourcompany.com</a></li>
+									<li><span class="fa fa-phone">&nbsp;</span> Phone 1: 0123456789 <br>Phone 2: (123) 4567890</li>
 								</ul>
 							</div>
 						</div>
 					</div>
 
-					<!-- <div class="col-sm-12 collapsed-block footer-links">
+					<div class="col-sm-12 collapsed-block footer-links">
 						<div class="module clearfix">
 							<div class="modcontent">
 								<hr class="footer-lines">
@@ -2748,7 +2668,7 @@
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</section>
@@ -2758,12 +2678,12 @@
 		<div class="footer-bottom-block ">
 			<div class=" container">
 				<div class="row">
-					<div class="col-sm-12 copyright-text">Copyright © 2018 Wanwanton International Co.,Ltd. . All Rights Reserved. 旺旺通國際有限公司版權所有</div>
-					<!-- <div class="col-sm-7">
+					<div class="col-sm-5 copyright-text">Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+					<div class="col-sm-7">
 						<div class="block-payment text-right"><img src="assets/image/demo/content/payment.png" alt="payment" title="payment" ></div>
 					</div>
-
-					<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div> -->
+					<!--Back To Top-->
+					<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div>
 
 				</div>
 			</div>
