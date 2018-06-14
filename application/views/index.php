@@ -5,7 +5,7 @@
 
     <!-- Basic page needs
 	============================================ -->
-	<title>Home</title>
+	<title>旺旺通國際有限公司</title>
 	<meta charset="utf-8">
     <meta name="keywords" content="" />
     <meta name="author" content="Magentech">
@@ -61,52 +61,50 @@
 						<div class="row">
 							<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden">
 								<!-- <div class="form-group languages-block ">
-								<form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
-								<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-								<img src="assets/assets/image/demo/flags/gb.png" alt="English" title="English">
-								<span class="">English</span>
-								<span class="fa fa-angle-down"></span>
-							</a>
-							<ul class="dropdown-menu">
-							<li><a href="index.html"><img class="image_flag" src="assets/assets/image/demo/flags/gb.png" alt="English" title="English" /> English </a></li>
-							<li> <a href="index.html"> <img class="image_flag" src="assets/assets/image/demo/flags/lb.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
-						</ul>
-					</form>
-				</div> -->
+									<form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
+										<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+											<img src="assets/assets/image/demo/flags/gb.png" alt="English" title="English">
+											<span class="">English</span>
+											<span class="fa fa-angle-down"></span>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="index.html"><img class="image_flag" src="assets/assets/image/demo/flags/gb.png" alt="English" title="English" /> English </a></li>
+											<li> <a href="index.html"> <img class="image_flag" src="assets/assets/image/demo/flags/lb.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
+										</ul>
+									</form>
+								</div> -->
 
-				<!-- <div class="form-group currencies-block">
-				<form action="index.html" method="post" enctype="multipart/form-data" id="currency">
-				<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-				<span class="icon icon-credit "></span> US Dollar <span class="fa fa-angle-down"></span>
-			</a>
-			<ul class="dropdown-menu btn-xs">
-			<li> <a href="#">(€)&nbsp;Euro</a></li>
-			<li> <a href="#">(£)&nbsp;Pounds	</a></li>
-			<li> <a href="#">($)&nbsp;US Dollar	</a></li>
-		</ul>
-	</form>
-</div> -->
-</div>
-<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-12 compact-hidden">
-	<h5 class="tabBlockTitle visible-xs">More<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
-	<div class="tabBlock" id="TabBlock-1">
-		<ul class="top-link list-inline">
-			<li class="account" id="my_account">
-				<a href="#" title="我的帳戶" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >會員中心</span> <span class="fa fa-angle-down"></span></a>
-				<ul class="dropdown-menu ">
-					<li><a href="register.html"><i class="fa fa-user"></i>註冊</a></li>
-					<li><a href="login.html"><i class="fa fa-pencil-square-o"></i>登入</a></li>
-				</ul>
-			</li>
-			<!-- <li class="wishlist"><a href="#" id="wishlist-total" class="top-link-wishlist" title="Wish List (2)"><span>Wish List (2)</span></a></li>
-				<li class="checkout"><a href="#" class="top-link-checkout" title="Checkout"><span >Checkout</span></a></li> -->
-				<li class="login"><a href="#" title="Shopping Cart"><span >購物車</span></a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-</div>
-</div>
+								<!-- <div class="form-group currencies-block">
+									<form action="index.html" method="post" enctype="multipart/form-data" id="currency">
+										<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+											<span class="icon icon-credit "></span> US Dollar <span class="fa fa-angle-down"></span>
+										</a>
+										<ul class="dropdown-menu btn-xs">
+											<li> <a href="#">(€)&nbsp;Euro</a></li>
+											<li> <a href="#">(£)&nbsp;Pounds	</a></li>
+											<li> <a href="#">($)&nbsp;US Dollar	</a></li>
+										</ul>
+									</form>
+								</div> -->
+							</div>
+							<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-12 compact-hidden">
+								<h5 class="tabBlockTitle visible-xs">More<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
+								<div class="tabBlock" id="TabBlock-1">
+									<ul class="top-link list-inline">
+										<li class="account" id="my_account">
+											<a href="#" title="我的帳戶" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >會員中心</span> <span class="fa fa-angle-down"></span></a>
+											<ul class="dropdown-menu ">
+												<li><a href="register.html"><i class="fa fa-user"></i>註冊</a></li>
+												<li><a href="login.html"><i class="fa fa-pencil-square-o"></i>登入</a></li>
+											</ul>
+										</li>
+										<li class="login"><a href="#" title="Shopping Cart"><span >購物車</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 <!-- //Header Top -->
 
 <!-- Header center -->
@@ -114,7 +112,7 @@
 	<div class="container">
 		<div class="row">
 			<!-- Logo -->
-			<div class="navbar-logo col-md-3 col-sm-6 col-xs-6">
+			<div class="navbar-logo col-md-4 col-sm-4 col-xs-4">
 				<a href="index.html"><img src="assets/image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
 			</div>
 			<!-- //end Logo -->
@@ -150,13 +148,13 @@
 			<!-- //end Search -->
 
 			<!-- Secondary menu -->
-			<div class="col-md-2 col-sm-6 col-xs-6 shopping_cart pull-right">
+			<div class="col-lg-6 col-md-6 col-sm-4 col-xs-4 shopping_cart pull-right">
 				<!--cart-->
 				<div id="cart" class=" btn-group btn-shopping-cart">
 					<a data-loading-text="Loading..." class="top_cart dropdown-toggle" data-toggle="dropdown">
 						<div class="shopcart">
 							<span class="handle pull-left"></span>
-							<span class="title">My cart</span>
+							<span class="title">購物車</span>
 							<p class="text-shopping-cart cart-total-full"></p>
 						</div>
 					</a>
@@ -231,7 +229,6 @@
 				<!--//cart-->
 			</div>
 		</div>
-
 	</div>
 </div>
 <!-- //Header center -->
@@ -452,110 +449,11 @@
 													</div>
 												</div>
 											</li>
-											<li class="with-sub-menu hover">
-												<p class="close-menu"></p>
-												<a href="#" class="clearfix">
-													<strong>Features</strong>
-													<span class="label"> Hot</span>
-													<b class="caret"></b>
-												</a>
-												<div class="sub-menu" style="width: 100%; right: auto;">
-													<div class="content" >
-														<div class="row">
-															<div class="col-md-3">
-																<div class="column">
-																	<a href="#" class="title-submenu">Listing pages</a>
-																	<div>
-																		<ul class="row-list">
-																			<li><a href="category.html">Category Page 1 </a></li>
-																			<li><a href="#">Category Page 2</a></li>
-																			<li><a href="#">Category Page 3</a></li>
-																		</ul>
 
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="column">
-																	<a href="#" class="title-submenu">Product pages</a>
-																	<div>
-																		<ul class="row-list">
-																			<li><a href="product.html">Image size - big</a></li>
-																			<li><a href="#">Image size - medium</a></li>
-																			<li><a href="#">Image size - small</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="column">
-																	<a href="#" class="title-submenu">Shopping pages</a>
-																	<div>
-																		<ul class="row-list">
-																			<li><a href="#">Shopping Cart Page</a></li>
-																			<li><a href="#">Checkout Page</a></li>
-																			<li><a href="#">Compare Page</a></li>
-																			<li><a href="#">Wishlist Page</a></li>
-
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-3">
-																<div class="column">
-																	<a href="#" class="title-submenu">My Account pages</a>
-																	<div>
-																		<ul class="row-list">
-																			<li><a href="login.html">Login Page</a></li>
-																			<li><a href="register.html">Register Page</a></li>
-																			<li><a href="#">My Account</a></li>
-																			<li><a href="#">Order History</a></li>
-																			<li><a href="#">Order Information</a></li>
-																			<li><a href="#">Product Returns</a></li>
-																			<li><a href="#">Gift Voucher</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
 											<li class="with-sub-menu hover">
 												<p class="close-menu"></p>
 												<a href="#" class="clearfix">
-													<strong>Pages</strong>
-													<span class="label"> Hot</span>
-													<b class="caret"></b>
-												</a>
-												<div class="sub-menu" style="width: 40%; ">
-													<div class="content" >
-														<div class="row">
-															<div class="col-md-6">
-																<ul class="row-list">
-																	<li><a class="subcategory_item" href="#">FAQ</a></li>
-																	<li><a class="subcategory_item" href="#">Typography</a></li>
-																	<li><a class="subcategory_item" href="#">Site Map</a></li>
-																	<li><a class="subcategory_item" href="#">Contact us</a></li>
-																	<li><a class="subcategory_item" href="#">Banner Effect</a></li>
-																</ul>
-															</div>
-															<div class="col-md-6">
-																<ul class="row-list">
-																	<li><a class="subcategory_item" href="#">About Us 1</a></li>
-																	<li><a class="subcategory_item" href="#">About Us 2</a></li>
-																	<li><a class="subcategory_item" href="#">About Us 3</a></li>
-																	<li><a class="subcategory_item" href="#">About Us 4</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="with-sub-menu hover">
-												<p class="close-menu"></p>
-												<a href="#" class="clearfix">
-													<strong>Categories</strong>
+													<strong>入會禮</strong>
 													<span class="label"></span>
 													<b class="caret"></b>
 												</a>
@@ -647,7 +545,74 @@
 											<li class="with-sub-menu hover">
 												<p class="close-menu"></p>
 												<a href="#" class="clearfix">
-													<strong>Accessories</strong>
+													<strong>概念館</strong>
+													<span class="label"> Hot</span>
+													<b class="caret"></b>
+												</a>
+												<div class="sub-menu" style="width: 100%; right: auto;">
+													<div class="content" >
+														<div class="row">
+															<div class="col-md-3">
+																<div class="column">
+																	<a href="#" class="title-submenu">台灣會員購買專區</a>
+																	<div>
+																		<ul class="row-list">
+																			<li><a href="category.html">生活用品</a></li>
+																			<li><a href="#">美食飲品</a></li>
+																			<li><a href="#">身體保養</a></li>
+																			<li><a href="#">流行服飾</a></li>
+																			<li><a href="#">毛小孩商品</a></li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<div class="column">
+																	<a href="#" class="title-submenu">大陸會員購買專區</a>
+																	<div>
+																		<ul class="row-list">
+																			<li><a href="product.html">生活用品</a></li>
+																			<li><a href="#">美食飲品</a></li>
+																			<li><a href="#">身體保養</a></li>
+																			<li><a href="#">流行服飾</a></li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+
+
+											<li class="with-sub-menu hover">
+												<p class="close-menu"></p>
+												<a href="#" class="clearfix">
+													<strong>夢想館</strong>
+													<span class="label"> Hot</span>
+													<b class="caret"></b>
+												</a>
+												<div class="sub-menu" style="width: 40%; ">
+													<div class="content" >
+														<div class="row">
+															<div class="col-md-6">
+																<ul class="row-list">
+																	<li><a class="subcategory_item" href="#">廚房用品</a></li>
+																	<li><a class="subcategory_item" href="#">生活小物</a></li>
+																	<li><a class="subcategory_item" href="#">美食飲品</a></li>
+																	<li><a class="subcategory_item" href="#">課程眷卷</a></li>
+																	<li><a class="subcategory_item" href="#">身體保養</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+
+											<li class="with-sub-menu hover">
+												<p class="close-menu"></p>
+												<a href="#" class="clearfix">
+													<strong>消費館</strong>
 
 													<b class="caret"></b>
 												</a>
@@ -660,18 +625,23 @@
 																		<div class="menu">
 																			<ul>
 																				<li>
-																					<a href="#"  class="main-menu">Automotive</a>
+																					<a href="#"  class="main-menu">台灣會員購買區</a>
 																					<ul>
-																						<li><a href="#">Car Alarms and Security</a></li>
-																						<li><a href="#" >Car Audio &amp; Speakers</a></li>
-																						<li><a href="#" >Gadgets &amp; Auto Parts</a></li>
+																						<li><a href="#">生活用品</a></li>
+																						<li><a href="#" >流行服飾</a></li>
+																						<li><a href="#" >器材</a></li>
+																						<li><a href="#" >身體保養</a></li>
+																						<li><a href="#" >美食飲品</a></li>
+																						<li><a href="#" >廚房用品</a></li>
+																						<li><a href="#" >課程卷</a></li>
+																						<li><a href="#" >毛小孩商品</a></li>
 																					</ul>
 																				</li>
 																				<li>
-																					<a href="#"  class="main-menu">Smartphone &amp; Tablets</a>
+																					<a href="#"  class="main-menu">大陸會員購買區</a>
 																					<ul>
-																						<li><a href="#" >Accessories for i Pad</a></li>
-																						<li><a href="#" >Apparel</a></li>
+																						<li><a href="#" >生活用品</a></li>
+																						<li><a href="#" >廚房用品</a></li>
 																						<li><a href="#" >Accessories for iPhone</a></li>
 																					</ul>
 																				</li>
@@ -763,29 +733,12 @@
 																		</div>
 																	</div>
 																</div>
-
 															</div>
 														</div>
 													</div>
 												</div>
 											</li>
-											<li class="">
-												<p class="close-menu"></p>
-												<a href="#" class="clearfix">
-													<strong>Blog</strong>
-													<span class="label"></span>
-												</a>
-											</li>
-
-											<li class="hidden-md">
-												<p class="close-menu"></p>
-												<a href="#" class="clearfix">
-													<strong>Buy Theme!</strong>
-
-												</a>
-											</li>
 										</ul>
-
 									</div>
 								</div>
 							</div>
