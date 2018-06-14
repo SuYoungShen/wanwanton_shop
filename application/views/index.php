@@ -113,7 +113,7 @@
 		<div class="row">
 			<!-- Logo -->
 			<div class="navbar-logo col-md-4 col-sm-4 col-xs-4">
-				<a href="index.html"><img src="assets/image/demo/logos/theme_logo.png" title="Your Store" alt="Your Store" /></a>
+				<a href="index.html"><img src="assets/image/demo/logos/logo1.png" class="img-responsive" title="Your Store" alt="Your Store" /></a>
 			</div>
 			<!-- //end Logo -->
 
@@ -546,7 +546,6 @@
 												<p class="close-menu"></p>
 												<a href="#" class="clearfix">
 													<strong>概念館</strong>
-													<span class="label"> Hot</span>
 													<b class="caret"></b>
 												</a>
 												<div class="sub-menu" style="width: 100%; right: auto;">
@@ -589,7 +588,6 @@
 												<p class="close-menu"></p>
 												<a href="#" class="clearfix">
 													<strong>夢想館</strong>
-													<span class="label"> Hot</span>
 													<b class="caret"></b>
 												</a>
 												<div class="sub-menu" style="width: 40%; ">
@@ -619,9 +617,9 @@
 												<div class="sub-menu" style="width: 100%; display: none;">
 													<div class="content" style="display: none;">
 														<div class="row">
-															<div class="col-md-8">
+															<div class="col-md-12">
 																<div class="row">
-																	<div class="col-md-6 static-menu">
+																	<div class="col-md-5 static-menu">
 																		<div class="menu">
 																			<ul>
 																				<li>
@@ -637,99 +635,24 @@
 																						<li><a href="#" >毛小孩商品</a></li>
 																					</ul>
 																				</li>
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="col-md-5 static-menu">
+																		<div class="menu">
+																			<ul>
 																				<li>
 																					<a href="#"  class="main-menu">大陸會員購買區</a>
 																					<ul>
 																						<li><a href="#" >生活用品</a></li>
 																						<li><a href="#" >廚房用品</a></li>
-																						<li><a href="#" >Accessories for iPhone</a></li>
+																						<li><a href="#" >美食飲品</a></li>
+																						<li><a href="#" >流行服飾</a></li>
+																						<li><a href="#" >器材</a></li>
+																						<li><a href="#" >身體保養</a></li>
 																					</ul>
 																				</li>
 																			</ul>
-																		</div>
-																	</div>
-																	<div class="col-md-6 static-menu">
-																		<div class="menu">
-																			<ul>
-																				<li>
-																					<a href="#" class="main-menu">Sports &amp; Outdoors</a>
-																					<ul>
-																						<li><a href="#" >Camping &amp; Hiking</a></li>
-																						<li><a href="#" >Cameras &amp; Photo</a></li>
-																						<li><a href="#" >Cables &amp; Connectors</a></li>
-																					</ul>
-																				</li>
-																				<li>
-																					<a href="#"  class="main-menu">Electronics</a>
-																					<ul>
-																						<li><a href="#" >Battereries &amp; Chargers</a></li>
-																						<li><a href="#" >Bath &amp; Body</a></li>
-																						<li><a href="#" >Outdoor &amp; Traveling</a></li>
-																					</ul>
-																				</li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-															</div>
-															<div class="col-md-4">
-																<span class="title-submenu">Bestseller</span>
-																<div class="col-sm-12 list-product">
-																	<div class="product-thumb">
-																		<div class="image pull-left">
-																			<a href="#"><img src="assets/image/demo/shop/product/35.jpg" width="80" alt="Filet Mign" title="Filet Mign" class="img-responsive"></a>
-																		</div>
-																		<div class="caption">
-																			<h4><a href="#">Filet Mign</a></h4>
-																			<div class="rating-box">
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																			</div>
-																			<p class="price">$1,202.00</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-sm-12 list-product">
-																	<div class="product-thumb">
-																		<div class="image pull-left">
-																			<a href="#"><img src="assets/image/demo/shop/product/W1.jpg" width="80" alt="Dail Lulpa" title="Dail Lulpa" class="img-responsive"></a>
-																		</div>
-																		<div class="caption">
-																			<h4><a href="#">Dail Lulpa</a></h4>
-																			<div class="rating-box">
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																			</div>
-																			<p class="price">$78.00</p>
-																		</div>
-																	</div>
-																</div>
-																<div class="col-sm-12 list-product">
-																	<div class="product-thumb">
-																		<div class="image pull-left">
-																			<a href="#"><img src="assets/image/demo/shop/product/141.jpg" width="80" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive"></a>
-																		</div>
-																		<div class="caption">
-																			<h4><a href="#">Canon EOS 5D</a></h4>
-
-																			<div class="rating-box">
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																				<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-																			</div>
-																			<p class="price">
-																				<span class="price-new">$60.00</span>
-																				<span class="price-old">$145.00</span>
-
-																			</p>
 																		</div>
 																	</div>
 																</div>
