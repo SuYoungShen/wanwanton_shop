@@ -44,7 +44,9 @@
 	<link id="color_scheme" href="assets/css/theme.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet">
 
-
+<!-- 每日店家CSS -->
+	<link href="assets/css/123style.css" rel="stylesheet">
+<!-- 每日店家CSS END -->
 </head>
 
 <body class="common-home res layout-home1">
@@ -721,7 +723,141 @@
 	<div class="main-container container">
 
 		<div class="row">
+
+<!-- 每日店家 -->
+
+			<section class="jq22-container">
+				<div class="container">
+				  <h2>每日店家</h2>
+				  <div id="full" class="carousel slide" data-ride="carousel">
+				    <div class="carousel-inner">
+				      <ul class="row item active">
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=1" srcset="http://placehold.it/200/6dc066/ffffff&text=1 1x, http://placehold.it/400/6dc066/ffffff&text=1 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=2" srcset="http://placehold.it/200/6dc066/ffffff&text=2 1x, http://placehold.it/400/6dc066/ffffff&text=2 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=3" srcset="http://placehold.it/200/6dc066/ffffff&text=3 1x, http://placehold.it/400/6dc066/ffffff&text=3 2x" class="img-responsive">
+				        </li>
+								<li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=3" srcset="http://placehold.it/200/6dc066/ffffff&text=3 1x, http://placehold.it/400/6dc066/ffffff&text=3 2x" class="img-responsive">
+				        </li>
+				      </ul>
+				      <ul class="row item">
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=4" srcset="http://placehold.it/200/6dc066/ffffff&text=4 1x, http://placehold.it/400/6dc066/ffffff&text=4 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=5" srcset="http://placehold.it/200/6dc066/ffffff&text=5 1x, http://placehold.it/400/6dc066/ffffff&text=5 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3">
+				          <img src="http://placehold.it/200/6dc066/ffffff&text=6" srcset="http://placehold.it/200/6dc066/ffffff&text=6 1x, http://placehold.it/400/6dc066/ffffff&text=6 2x" class="img-responsive">
+				        </li>
+								<li class="col-xs-3">
+									<img src="http://placehold.it/200/6dc066/ffffff&text=6" srcset="http://placehold.it/200/6dc066/ffffff&text=6 1x, http://placehold.it/400/6dc066/ffffff&text=6 2x" class="img-responsive">
+								</li>
+				      </ul>
+				    </div>
+
+				    <a class="carousel-control left" href="#full" data-slide="prev">Previous</a>
+				    <a class="carousel-control right" href="#full" data-slide="next">Next</a>
+				  </div>
+
+				  <!-- <h2>Single Item Rotation</h2>
+				  <div id="single" class="carousel slide" data-ride="carousel" data-shift="1">
+				    <div class="carousel-inner">
+				      <ul class="row item active">
+				        <li class="col-xs-4 one">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=1" srcset="http://placehold.it/200/666dc0/ffffff&text=1 1x, http://placehold.it/400/666dc0/ffffff&text=1 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-4 two">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=2" srcset="http://placehold.it/200/666dc0/ffffff&text=2 1x, http://placehold.it/400/666dc0/ffffff&text=2 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-4 three">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=3" srcset="http://placehold.it/200/666dc0/ffffff&text=3 1x, http://placehold.it/400/666dc0/ffffff&text=3 2x" class="img-responsive">
+				        </li>
+				      </ul>
+				      <ul class="row item">
+				        <li class="col-xs-4 four">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=4" srcset="http://placehold.it/200/666dc0/ffffff&text=4 1x, http://placehold.it/400/666dc0/ffffff&text=4 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-4 five">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=5" srcset="http://placehold.it/200/666dc0/ffffff&text=5 1x, http://placehold.it/400/666dc0/ffffff&text=5 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-4 six">
+				          <img src="http://placehold.it/200/666dc0/ffffff&text=6" srcset="http://placehold.it/200/666dc0/ffffff&text=6 1x, http://placehold.it/400/666dc0/ffffff&text=6 2x" class="img-responsive">
+				        </li>
+				      </ul>
+				    </div>
+
+				    <a class="carousel-control left" href="#single" data-slide="prev">Previous</a>
+				    <a class="carousel-control right" href="#single" data-slide="next">Next</a>
+				  </div> -->
+
+
+				  <!-- <div id="single-quad" class="carousel slide" data-ride="carousel" data-shift="1">
+				    <div class="carousel-inner">
+				      <ul class="row item active">
+				        <li class="col-xs-3 one">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=1" srcset="http://placehold.it/200/c0666d/ffffff&text=1 1x, http://placehold.it/400/c0666d/ffffff&text=1 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 two">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=2" srcset="http://placehold.it/200/c0666d/ffffff&text=2 1x, http://placehold.it/400/c0666d/ffffff&text=2 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 three">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=3" srcset="http://placehold.it/200/c0666d/ffffff&text=3 1x, http://placehold.it/400/c0666d/ffffff&text=3 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 four">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=4" srcset="http://placehold.it/200/c0666d/ffffff&text=4 1x, http://placehold.it/400/c0666d/ffffff&text=4 2x" class="img-responsive">
+				        </li>
+				      </ul>
+				      <ul class="row item">
+				        <li class="col-xs-3 five">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=5" srcset="http://placehold.it/200/c0666d/ffffff&text=5 1x, http://placehold.it/400/c0666d/ffffff&text=5 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 six">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=6" srcset="http://placehold.it/200/c0666d/ffffff&text=6 1x, http://placehold.it/400/c0666d/ffffff&text=6 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 seven">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=7" srcset="http://placehold.it/200/c0666d/ffffff&text=7 1x, http://placehold.it/400/c0666d/ffffff&text=7 2x" class="img-responsive">
+				        </li>
+				        <li class="col-xs-3 eight">
+				          <img src="http://placehold.it/200/c0666d/ffffff&text=8" srcset="http://placehold.it/200/c0666d/ffffff&text=8 1x, http://placehold.it/400/c0666d/ffffff&text=8 2x" class="img-responsive">
+				        </li>
+				      </ul>
+				    </div>
+
+				    <a class="carousel-control left" href="#single-quad" data-slide="prev">Previous</a>
+				    <a class="carousel-control right" href="#single-quad" data-slide="next">Next</a>
+				  </div>
+
+				  <p><b>DISCLAIMER:</b> I don't know that I would recommend using this method for doing this on a regular basis. If you are maintaining your own HTML and you know what you are doing, it would probably be more beneficial to just initially code it to what the JS is changing it to. But I am typically making things that other people are going to be implementing. And the easier it is for them to build and understand, the easier it is for me troubleshoot when things don't work. Not that my things don't work or anything... =)</p>
+				</div> -->
+			</div>
+			</section>
+			<!-- <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script> -->
+			<script type="text/javascript" src="http://libs.baidu.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		    <script src="assets/js/index.js"></script>
+
+
+<!-- 每日店家end -->
+
+
+
+
+
+
+
+
+
+
+
 			<div id="content" class="col-sm-12">
+
+
+
 
 <div class="module tab-slider titleLine">
 	<h1 class="modtitle">熱門商品</h1>
