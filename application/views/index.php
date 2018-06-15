@@ -678,24 +678,25 @@
 	<!-- //Header Container  -->
 	<!-- Block Spotlight1  -->
 	<section class="so-spotlight1 ">
-		<div class="container">
+		<div class="container">	
+
 			<div class="row">
-				<div id="yt_header_right" class="col-lg-offset-3 col-lg-9 col-md-12">
+				<div id="yt_header_right" class="col-lg-offset-3 col-lg-12 col-md-12">
 					<div class="slider-container ">
 
-						<div class="module first-block">
+						<!-- <div class="module first-block">
 							<div class="modcontent clearfix">
 								<div id="custom_popular_search" class="clearfix">
-									<!-- <h5 class="so-searchbox-popular-title pull-left">Top Search:</h5>
+									<h5 class="so-searchbox-popular-title pull-left">Top Search:</h5>
 									<div class="so-searchbox-keyword">
 										<ul class="list-inline"><li>&nbsp;<a href="#">Acer,</a></li><li><a href="#">APPLE,</a></li><li><a href="#">Black,</a></li><li><a href="#">Canon,</a></li><li><a href="#">Cogs,</a></li><li><a href="#">Confi,</a></li><li><a href="#">Kate,</a></li><li><a href="#">Lor,</a></li><li><a href="#">Product,</a></li><li><a href="#">Zolof The Rock And Roll Destroyer</a></li></ul>
-									</div> -->
+									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
-
-						<div id="so-slideshow" class="col-lg-8 col-md-8 col-sm-12 col-xs-12 two-block">
+						<!-- 輪播圖 START -->
+						<div id="so-slideshow" class="col-lg-8 col-md-8 col-sm-9 col-xs-12 two-block">
 							<div class="module slideshow no-margin">
 								<div class="item">
 									<a href="#"><img src="assets/image/demo/slider/slider-1.png" alt="slider1" class="img-responsive"></a>
@@ -709,51 +710,8 @@
 							</div>
 							<div class="loadeding"></div>
 						</div>
+						<!-- 輪播圖 END -->
 
-<!-- 輪播圖 START -->
-						<div class="module col-md-4  hidden-sm hidden-xs three-block ">
-							<div class="modcontent clearfix">
-								<div class="htmlcontent-block">
-									<ul class="htmlcontent-home">
-										<li>
-											<div class="banners">
-												<div>
-													<a href="#"><img src="assets/image/demo/cms/banner1.jpg" alt="banner1"></a>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="banners">
-												<div>
-													<a href="#"><img src="assets/image/demo/cms/banner2.jpg" alt="banner1"></a>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="banners">
-												<div>
-													<a href="#"><img src="assets/image/demo/cms/banner3.jpg" alt="banner1"></a>
-												</div>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-<!-- 輪播圖 END -->
-						<!-- <div class="module hidden-xs col-sm-12 four-block">
-							<div class="modcontent clearfix">
-								<div class="policy-detail">
-									<div class="banner-policy text-center">
-										<div class="policy policy1"><a href="#"> <span class="ico-policy"></span> 7天鑑賞期 </a>
-										<div class="policy policy2"><a href="#"> <span class="ico-policy"></span>可查看物流進度 </a></div>
-										<div class="policy policy3"><a href="#"> <span class="ico-policy"></span> 價格划算</a></div>
-										 <div class="policy policy4"><a href="#"> <span class="ico-policy">&nbsp;</span> shopping guarantee </a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>
