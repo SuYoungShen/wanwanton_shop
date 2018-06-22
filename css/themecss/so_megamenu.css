@@ -88,9 +88,9 @@ ul.megamenu > li > a {
     display: block;
     position: relative;
     color: #fff;
-    font-size: 14px;
     padding: 15px 18px ;
-
+    font-size: 20px;
+    font-family:'Microsoft JhengHei';
 }
 
 ul.megamenu > li > a strong {
@@ -101,9 +101,10 @@ ul.megamenu > li > a:hover,
 ul.megamenu > li.active > a,
 ul.megamenu > li.home > a,
 ul.megamenu > li:hover > a {
-    background-color: #898989; /* Old browsers */
+    background-color: #dabd02; /* Old browsers */
 	color: white;
-
+  font-size: 20px;
+  font-family:'Microsoft JhengHei';
 }
 
 ul.megamenu > li > a > .icon-home {
@@ -331,6 +332,8 @@ ul.megamenu li .sub-menu .content .hover-menu .menu ul ul li {
 
 
 .megamenuToogle-wrapper .container {
+
+    background-color: #e83c3c;
     color: #fff;
     font-size: 16px;
     padding:15px ;
@@ -411,8 +414,11 @@ ul.megamenu li .sub-menu .content .hover-menu .menu ul ul li {
 }
 
 .vertical ul.megamenu > li > a {
-    padding: 10px 15px ;
+  padding: 10px 15px ;
 	color: #666;
+  font-size: 20px;
+  font-family:'Microsoft JhengHei';
+
 }
 
 .vertical ul.megamenu > li.active > a {
