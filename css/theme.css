@@ -3,7 +3,7 @@
 *	Author: Magentech
 *	Author URI: http://www.magentech.com
 *	Version: 1.0.0
-*	Description: This is html5 Sass template 
+*	Description: This is html5 Sass template
 *******************************************/
 /*******************************************************
   Style Color
@@ -612,7 +612,7 @@
 
   .lazy.lazy-loaded img {
     opacity: 1; } }
-/* Overlay pattern 
+/* Overlay pattern
 --------------------------------------- */
 body.no-bgbody {
   background-image: none; }
@@ -1445,7 +1445,7 @@ header .so-megamenu .navbar-header {
 	[1]		Header Wrapper
 	[2]		Content Wrapper
 	[3]		Footer Wrapper
-	
+
 */
 /* ************************************************************************************************
 STRUCTURE
@@ -2109,11 +2109,11 @@ ul.footer-directory {
 
 /*===============================================
 	[SASS DIRECTORY ]
-	
+
     [1] SO LATSET BLOG
     [2] SIMPLE BLOG
     [3] ARTICLE INFO
-	
+
 ==============================================*/
 /*============SO LATSET BLOG ==================*/
 .blog-listitem.list .itemBlogImg.left-block {
@@ -2375,7 +2375,7 @@ h5 {
 h6 {
   font-size: 10.2px; }
 
-ul.menu, ul.blank, .htmlcontent-home, .menu-category .list-group, .menu-category .list-group > li ul, .filter-shopby .checkboxes_list, .filter-row .checkboxes_list, .filter-shopby .simple_vertical_list, .filter-row .simple_vertical_list, .tags_cloud, #collections_block ul, ul.contact-address, ul.product-options {
+ul.menu, ul.blank, .htmlcontent-home, .menu-category .list-group, .menu-category .list-group > li ul, .filter-shopby .checkboxes_list, .filter-row .checkboxes_list, .filter-shopby .simple_vertical_list, .filter-row .simple_vertical_list, .tags_cloud, # ul, ul.contact-address, ul.product-options {
   list-style: none;
   padding: 0; }
 
@@ -2682,8 +2682,8 @@ table.table-bordered thead > * {
 	[1]		Page Faq
 	[2]		Page About us
 	[3]		Page Contact
-	[4]		page 404 
-	
+	[4]		page 404
+
 */
 #map-canvas {
   height: 600px; }
@@ -4659,7 +4659,7 @@ h2.title-category {
     font-size: 14px;
     color: #666666;
     text-align: center;
-    width: 200px;
+    /* width: 200px; */
     text-transform: uppercase;
     display: table-cell; }
     #collections_block ul li .color_co {
