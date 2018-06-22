@@ -26,7 +26,8 @@
 	<!-- Google web fonts
 	============================================ -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-
+		<!-- icon fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- Libs CSS
 	============================================ -->
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -61,14 +62,88 @@
 <div class="header-top compact-hidden">
 	<div class="container">
 		<div class="row">
-			<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden"></div>
+			<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden">
+
+	    <!-- <div class="form-group languages-block ">
+	     <form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
+	       <a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+				<a href="#">
+	        <img src="image/demo/flags/gb.png" alt="English" title="English">
+	       <span class="">繁體中文</span>
+	       <span class="fa fa-angle-down"></span>
+	      </a>
+	      <ul class="dropdown-menu">
+	       <li><a href="index.html">簡體中文</a></li>
+	       <li> <a href="index.html">英文</a> </li>
+	      </ul>
+	     </form>
+	    </div> -->
+
+			<div class="form-group currencies-block">
+			 <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
+				<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+				 <span class="icon icon-credit "></span>繁體中文<span class="fa fa-angle-down"></span>
+				</a>
+				<ul class="dropdown-menu btn-xs">
+				 <li> <a href="#">簡體中文</a></li>
+				 <li> <a href="#">英文</a></li>
+				 <!-- <li> <a href="#">($)&nbsp;US Dollar </a></li> -->
+				</ul>
+			 </form>
+			</div>
+
+			<div class="form-group currencies-block">
+			 <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
+				<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+				 <span class="icon icon-credit "></span>親,請登入
+
+				 <!-- <span class="fa fa-angle-down"></span> -->
+				</a>
+				<!-- <ul class="dropdown-menu btn-xs">
+				 <li> <a href="#">(€)&nbsp;Euro</a></li>
+				 <li> <a href="#">(£)&nbsp;Pounds </a></li>
+				 <li> <a href="#">($)&nbsp;US Dollar </a></li>
+				</ul> -->
+			 </form>
+			</div>
+
+			<div class="form-group currencies-block">
+	     <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
+	      <a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+	       <span class="icon icon-credit "></span>免費註冊
+				 <!-- <span class="fa fa-angle-down"></span> -->
+	      </a>
+	      <!-- <ul class="dropdown-menu btn-xs">
+	       <li> <a href="#">(€)&nbsp;Euro</a></li>
+	       <li> <a href="#">(£)&nbsp;Pounds </a></li>
+	       <li> <a href="#">($)&nbsp;US Dollar </a></li>
+	      </ul> -->
+	     </form>
+	    </div>
+
+
+	    <!-- <div class="form-group currencies-block">
+	     <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
+	      <a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+	       <span class="icon icon-credit "></span> US Dollar <span class="fa fa-angle-down"></span>
+	      </a>
+	      <ul class="dropdown-menu btn-xs">
+	       <li> <a href="#">(€)&nbsp;Euro</a></li>
+	       <li> <a href="#">(£)&nbsp;Pounds </a></li>
+	       <li> <a href="#">($)&nbsp;US Dollar </a></li>
+	      </ul>
+	     </form>
+	    </div> -->
+	   </div>
 
 			<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-12 compact-hidden">
 				<h5 class="tabBlockTitle visible-xs">More<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
 				<div class="tabBlock" id="TabBlock-1">
 					<ul class="top-link list-inline">
 						<li class="account" id="my_account">
-              <a href="#" title="我的帳戶" class="btn btn-xs dropdown-toggle" data-toggle="dropdown"> <span >會員中心</span> <span class="fa fa-angle-down"></span></a>
+              <a href="#" title="我的帳戶" class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+							<span	class="fas fa-user"></span>
+								<span >會員中心</span> <span class="fa fa-angle-down"></span></a>
 
 							<ul class="dropdown-menu ">
 								<li><a href="register.html"><i class="fa fa-user"></i> 註冊</a></li>
@@ -76,6 +151,51 @@
 							</ul>
 						</li>
 					</ul>
+
+					<ul class="top-link list-inline">
+						<li class="account" id="my_account">
+              <a href="#" title="物流追蹤" class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+	 <span class="fas fa-truck-moving"></span>
+								 <span >物流追蹤</span>
+
+							 </a>
+
+							<!-- <ul class="dropdown-menu ">
+								<li><a href="register.html"><i class="fa fa-user"></i> 註冊</a></li>
+								<li><a href="login.html"><i class="fa fa-pencil-square-o"></i> 登入</a></li>
+							</ul> -->
+						</li>
+					</ul>
+
+					<!-- <ul class="top-link list-inline">
+						<li class="account" id="my_account">
+              <a href="#" title="我的訂單" class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+	 <span class="fas fa-clipboard-list"></span>
+								 <span >我的訂單</span>
+
+							 </a>
+
+							<ul class="dropdown-menu ">
+								<li><a href="register.html"><i class="fa fa-user"></i> 註冊</a></li>
+								<li><a href="login.html"><i class="fa fa-pencil-square-o"></i> 登入</a></li>
+							</ul>
+						</li>
+					</ul> -->
+					<ul class="top-link list-inline">
+						<li class="account" id="my_account">
+							<a href="#" title="購物車" class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+					<span class="fas fa-shopping-cart"></span>
+								 <span >購物車</span>
+
+							 </a>
+
+							<!-- <ul class="dropdown-menu ">
+								<li><a href="register.html"><i class="fa fa-user"></i> 註冊</a></li>
+								<li><a href="login.html"><i class="fa fa-pencil-square-o"></i> 登入</a></li>
+							</ul> -->
+						</li>
+					</ul>
+
 				</div>
 			</div>
 		</div>
@@ -88,21 +208,21 @@
 	<div class="container">
 		<div class="row">
 			<!-- Logo -->
-			<div class="navbar-logo col-md-3 col-sm-3 col-xs-12">
+			<div class="navbar-logo col-md-5 col-sm-5 col-xs-12">
 				<a href="index.html"><img src="image/logo/shoplogo.png"  class="img-responsive" title="旺旺通國際有限公司" alt="Your Store" /></a>
 			</div>
 			<!-- //end Logo -->
 
 			<!-- Search -->
-			<div id="sosearchpro" class="col-sm-3 search-pro">
+			<!-- <div id="sosearchpro" class="col-sm-3 search-pro">
 
-			</div>
+			</div> -->
 			<!-- //end Search -->
 
 			<!-- Secondary menu -->
-			<div class="col-md-2 col-sm-3 col-xs-12 shopping_cart pull-right">
+			<div class="col-md-3 col-sm-3 col-xs-12 shopping_cart pull-right">
 				<!--cart-->
-				<div id="cart" class=" btn-group btn-shopping-cart">
+				<!-- <div id="cart" class=" btn-group btn-shopping-cart">
 					<a data-loading-text="Loading..." class="top_cart dropdown-toggle" data-toggle="dropdown">
 						<div class="shopcart">
 							<span class="handle pull-left"></span>
@@ -177,7 +297,7 @@
 							</div>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				<!--//cart-->
 			</div>
 		</div>
@@ -190,7 +310,7 @@
 <div class="header-bottom">
 	<div class="container">
 		<div class="row">
-
+<b>
 			<div class="sidebar-menu col-md-3 col-sm-6 col-xs-12 ">
 				<div class="responsive so-megamenu ">
 					<div class="so-vertical-menu no-gutter compact-hidden">
@@ -206,7 +326,7 @@
 													<span></span>
 													<span></span>
 												</div>
-												查看分類
+											<b>查看分類</b>
 												<i class="fa pull-right arrow-circle fa-chevron-circle-up"></i>
 											</div>
 										</div>
@@ -216,7 +336,7 @@
 									<button type="button" id="show-verticalmenu" data-toggle="collapse" class="navbar-toggle fa fa-list-alt">
 
 									</button>
-									查看分類
+								<b>查看分類</b>
 								</div>
 								<div class="vertical-wrapper" >
 									<span id="remove-verticalmenu" class="fa fa-times"></span>
@@ -228,7 +348,7 @@
 													<p class="close-menu"></p>
 													<a href="#" class="clearfix">
 														<img src="image/theme/icons/10.png" alt="icon">
-														<span>入會禮</span>
+														</span><span>入會禮</span>
 
 													</a>
 												</li>
@@ -345,14 +465,15 @@
                                         <div class="menu">
                                           <ul>
                                             <li>
-                                              <a href="#"  class="main-menu">大陸會員購買專區</a>
-                                              <ul>
+                                              <a href="#"  class="main-menu"><b>大陸會員購買專區</b></a>
+                                              <ul><b>
                                                 <li><a href="#" >生活用品</a></li>
                                                 <li><a href="#" >廚房用品</a></li>
                                                 <li><a href="#" >美食飲品</a></li>
                                                 <li><a href="#" >流行服飾</a></li>
                                                 <li><a href="#" >器材</a></li>
                                                 <li><a href="#" >身體保養</a></li>
+																								</b>
                                               </ul>
                                             </li>
                                           </ul>
@@ -382,11 +503,9 @@
 						<div class=" container-megamenu  horizontal">
 							<div class="navbar-header">
 								<button type="button" id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
+								<span	class="fas fa-bars"></span>
 								</button>
-								選單
+選單
 							</div>
 
 							<div class="megamenu-wrapper">
@@ -731,7 +850,7 @@
 
 													<!-- <span class="label label-sale">Sale</span> -->
 
-													<a class="quickview visible-lg" href="product.html">詳細介紹</a>
+													<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">詳細介紹</a>
 
 												</div>
 												<div class="right-block">
@@ -773,7 +892,7 @@
 
 													<!-- <span class="label label-new">New</span> -->
 
-													<a class="quickview visible-lg"href="product.html">詳細介紹</a>
+													<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">詳細介紹</a>
 
 												</div>
 												<div class="right-block">
@@ -812,7 +931,7 @@
 
 													<!-- <span class="label label-sale">Sale</span> -->
 
-													<a class="quickview visible-lg" href="product.html">詳細介紹</a>
+													<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">詳細介紹</a>
 
 												</div>
 												<div class="right-block">
@@ -1940,11 +2059,454 @@
 	</div>
 	<!-- //Main Container -->
 
+<!-- 暢銷商品start -->
+
+
+
+<div class="row">
+
+		<h1 class="modtitle text-center">暢銷商品</h1>
+
+
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-sm-4 col-md-3">
+	<div class="thumbnail">
+		<img src="image/PN0000004/PN0000004-5-small.jpg" class="img-responsive" title="" alt="">
+		<div class="caption">
+			<h3>雙叉因子</h3>
+			<div class="price">
+				<span class="price-new">$97.00</span>
+			</div>
+			<div class="button-group">
+				<button type="button" class="btn btn-warning">直接購買</button>
+				<button type="button" class="btn btn-primary pull-right">加入購物車</button>
+				<!-- <button class="btn btn-warning" type="button" data-toggle="tooltip" title="直接購買" onclick="location.href='www.youtube.com'"><i class="fa fa-shopping-cart"></i> <span class="">直接購買</span></button>
+				<button class="btn btn-primary pull-right" type="button" data-toggle="tooltip" title="加入購物車" onclick="cart.add('42', '1');"><i class="fa fa-shopping-cart"></i> <span class="">加入購物車</span></button> -->
+				<!-- <button class="wishlist" type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
+				<button class="compare" type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+<!-- 4大主流 -->
+
+
+
+<!-- 暢銷商品end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 	<!-- Block Spotlight3  -->
-	<section class="so-spotlight3">
+	<!-- <section class="so-spotlight3">
 		<div class="container">
 			<div class="row">
 
@@ -2107,7 +2669,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- //Block Spotlight3  -->
 <script type="text/javascript"><!--
 	var $typeheader = 'header-home1';
