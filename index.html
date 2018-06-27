@@ -52,7 +52,20 @@
 	n=y.getElementsByTagName(e)[0];n.parentNode.insertBefore(i,n);
 	})(document,'script','https://4.cami.yesing.com/patrol/slide/operator/image/wanwanton958?ft=rd');
 	</script> -->
-
+	<style media="screen">
+		.header-center{
+			padding: 10px 0;
+		}
+		.header-top{
+			background: #f35d5d;
+		}
+		.languages-block form > a, .currencies-block form > a{
+			color: #fff;
+		}
+		.type_1 .header-top-right ul.top-link > li.account{
+			background: #f35d5d;
+		}
+	</style>
 </head>
 
 <body class="common-home res layout-home1">
@@ -212,8 +225,11 @@ justify-content: center; /* Optional, to align inner items
 				</a>
 			</div>
 			<!-- //end Logo -->
+			<div class="col-lg-3">
+
+			</div>
 			<!-- Search -->
-			<div id="sosearchpro" class="col-lg-8 search-pro align-middle">
+			<div id="sosearchpro" class="col-lg-5 search-pro align-middle">
 				<form method="GET" action="index.html">
 					<div id="search0" class="search input-group">
 						<div class="select_category filter_type icon-select">
@@ -2499,7 +2515,7 @@ justify-content: center; /* Optional, to align inner items
 		<div class="caption">
 			<h3>火幣</h3>
 			<p>區塊鏈數字貨幣 掌握機會啟動被動式永續收入 快速 安全 公開</p>
-			<a href="#" class="btn btn-primary" role="button">查看詳情</a>
+			<a href="four/fire/fire.html" class="btn btn-primary" role="button">查看詳情</a>
 	<a href="#" class="btn btn-default pull-right" role="button">立即參加</a>			</div>
 	</div>
 </div>
@@ -2871,10 +2887,11 @@ justify-content: center; /* Optional, to align inner items
 <script type="text/javascript">
 // App下載的彈跳視窗
 function app_download(){
+	var consumer = 'consumer';
 	var card = "<div class='row'>"+
-							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-消費者</h2><img src='image/qr_app/consumer1.png' class='img-responsive'></div>"+
-							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-會員</h2><img src='image/qr_app/member1.png' class='img-responsive'></div>"+
-							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-店家</h2><img src='image/qr_app/store1.png' class='img-responsive'>"+
+							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-消費者</h2><img src='image/qr_app/consumer1.png' class='img-responsive' onclick=qr('consumer') title='點擊此處可連至此APP詳細內容'></div>"+
+							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-會員</h2><img src='image/qr_app/member1.png' class='img-responsive' onclick=qr('member') title='點擊此處可連至此APP詳細內容'></div>"+
+							"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-店家</h2><img src='image/qr_app/store1.png' class='img-responsive' onclick=qr('store') title='點擊此處可連至此APP詳細內容'>"+
 							"</div>"+
 							"</div>";
 				swal({
@@ -2896,5 +2913,46 @@ function app_download(){
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5815685f7ab6f502"></script>
 
 
+<script type="text/javascript">
+function qr(name){
+	var URL = document.location.toString();
+	var useragent = navigator.userAgent;
+	useragent = useragent.toLowerCase();
+
+	var ios_url = "";
+	var an_url = "";
+	if(name == "consumer"){
+		ios_url = "https://itunes.apple.com/tw/app/%E6%97%BA%E6%97%BA%E4%BA%91-%E6%B6%88%E8%B2%BB%E8%80%85/id1391568466?mt=8&ign-mpt=uo%3D2";
+		an_url = "https://play.google.com/store/apps/details?id=com.ytt.wang_customer";
+	}else if(name == "member"){
+		ios_url = "https://itunes.apple.com/tw/app/%E6%97%BA%E6%97%BA%E4%BA%91-%E6%9C%83%E5%93%A1/id1391579744?mt=8";
+		an_url = "https://play.google.com/store/apps/details?id=com.ytt.wang_member";
+	}else if(name == "store"){
+		ios_url = "https://itunes.apple.com/tw/app/%E6%97%BA%E6%97%BA%E4%BA%91-%E5%BA%97%E5%AE%B6%E7%89%88/id1364378351?mt=8";
+		an_url = "https://play.google.com/store/apps/details?id=com.ytt.wangwang_fac";
+	}
+
+	if(useragent.indexOf('iphone') != -1 ) location.replace(ios_url);//iphone
+	else if( useragent.indexOf('ipad') != -1 || useragent.indexOf('ipod') != -1) location.replace(ios_url);//ipad
+	else if( useragent.indexOf('android') != -1 ) {
+		if( ConsiderLimits() )
+		{
+			location.replace(an_url); // android pad
+		}else{
+			location.replace(an_url); // android phone
+		}
+	}else{
+		location.replace(an_url); // PC
+	}
+
+}
+
+function ConsiderLimits() {
+	if( screen.width >= 1024 && screen.height >= 600 )
+	return 1;
+	return 0;
+}
+
+</script>
 </body>
 </html>
