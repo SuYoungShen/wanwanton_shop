@@ -4,7 +4,7 @@
 
     <!-- Basic page needs
 	============================================ -->
-	<title></title>
+	<title id="title"></title>
 	<meta charset="utf-8">
     <meta name="keywords" content="" />
     <meta name="author" content="Magentech">
@@ -28,10 +28,10 @@
 
     <!-- Libs CSS
 	============================================ -->
-    <link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/bootstrap/css/bootstrap.min.css">
 	<link href="../../css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="../../js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
-    <link href="../../js/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="../../js/owl-carousel/owl.carousel.css" rel="stylesheet">
 	<link href="../../css/themecss/lib.css" rel="stylesheet">
 	<link href="../../js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
 
@@ -41,7 +41,8 @@
     <link href="../../css/themecss/so-categories.css" rel="stylesheet">
 	<link href="../../css/themecss/so-listing-tabs.css" rel="stylesheet">
 
-		<link id="color_scheme" href="../../css/theme.css" rel="stylesheet">
+	<link id="color_scheme" href="../../css/theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/sweetalert2.min.css">
 
 	<link href="../../css/responsive.css" rel="stylesheet">
 
@@ -680,23 +681,23 @@
 			<div id="content" class="col-md-12 col-sm-12">
 
 				<div class="product-view row">
-					<div class="left-content-product col-lg-10 col-xs-12">
+					<div class="left-content-product col-lg-12 col-xs-12">
 						<div class="row">
-							<div class="content-product-left class-honizol col-sm-6 col-xs-12 ">
+							<div class="content-product-left class-honizol col-lg-12 col-sm-6 col-xs-12 ">
 								<div class="embed-responsive embed-responsive-16by9">
 									<video autoplay loop class="embed-responsive-item" controls>
 										<source src="fire.mp4" type="video/mp4">
 										</video>
 									</div>
 								</div>
-							<div class="content-product-right col-sm-6 col-xs-12">
+								<br class="hidden-xs"/>
+							<div class="content-product-right col-lg-12 col-sm-6 col-xs-12">
 								<div class="title-product">
 									<h1>火幣</h1>
 								</div>
 
 								<div class="product-box-desc">
 									<div class="inner-box-desc">
-
 										<p>火幣簡介</p>
 
 										<!-- <div class="price-tax"><span>Ex Tax:</span> $60.00</div>
@@ -786,192 +787,6 @@
 							</div>
 						</div>
 					</section> -->
-					<div class="related titleLine products-list grid module ">
-		<h3 class="modtitle">熱門商品</h3>
-		<div class="releate-products ">
-			<div class="product-layout">
-				<div class="product-item-container">
-					<div class="left-block">
-						<div class="product-image-container second_img ">
-							<img src="../../image/PN0000028/PN0000028-1.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
-						</div>
-						<!--Sale Label-->
-						<!-- <span class="label label-sale">Sale</span>
-						full quick view block -->
-						<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  詳細介紹</a>
-						<!-- end full quick view block -->
-					</div>
-
-
-					<div class="right-block">
-						<div class="caption">
-							<h4><a href="product.html">無極能量石-項鍊(A款)</a></h4>
-							<div class="ratings">
-								<!-- <div class="rating-box">
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-								</div> -->
-							</div>
-
-							<div class="price">
-								<span class="price-new">$74.00</span>
-								<span class="price-old">$122.00</span>
-								<!-- <span class="label label-percent">-40%</span> -->
-							</div>
-							<div class="description item-desc hidden">
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l..</p>
-							</div>
-						</div>
-
-						  <div class="button-group">
-								<button class="btn btn-info" type="button" data-toggle="tooltip" title="詳細介紹" onclick="cart.add('42', '1');"><i class="fa fa-list-ul"></i> <span class="hidden-xs">詳細介紹</span></button>
-								<button class="btn btn-warning pull-right" type="button" data-toggle="tooltip" title="加入購物車" ><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入購物車</span></button>
-						  </div>
-					</div><!-- right block -->
-
-				</div>
-			</div>
-			<div class="product-layout ">
-				<div class="product-item-container">
-					<div class="left-block">
-						<div class="product-image-container second_img ">
-							<img src="../../image/PN0000028/PN0000028-3.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
-						</div>
-						<!--Sale Label-->
-						<!-- <span class="label label-sale">Sale</span> -->
-						<!--full quick view block-->
-						<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  詳細介紹</a>
-						<!--end full quick view block-->
-					</div>
-
-
-					<div class="right-block">
-						<div class="caption">
-							<h4><a href="product.html">無極能量石-手環(女)</a></h4>
-							<!-- <div class="ratings">
-								<div class="rating-box">
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-								</div>
-							</div> -->
-
-							<div class="price">
-								<span class="price-new">$74.00</span>
-								<span class="price-old">$122.00</span>
-								<!-- <span class="label label-percent">-40%</span> -->
-							</div>
-							<div class="description item-desc hidden">
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l..</p>
-							</div>
-						</div>
-
-						  <div class="button-group">
-								<button class="btn btn-info" type="button" data-toggle="tooltip" title="詳細介紹" onclick="cart.add('42', '1');"><i class="fa fa-list-ul"></i> <span class="hidden-xs">詳細介紹</span></button>
-								<button class="btn btn-warning pull-right" type="button" data-toggle="tooltip" title="加入購物車" ><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入購物車</span></button>
-						  </div>
-					</div><!-- right block -->
-
-				</div>
-			</div>
-			<div class="product-layout ">
-				<div class="product-item-container">
-					<div class="left-block">
-						<div class="product-image-container second_img ">
-							<img src="../../image/PN0000028/PN0000028-5.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
-						</div>
-						<!--Sale Label-->
-						<!-- <span class="label label-sale">Sale</span> -->
-						<!--full quick view block-->
-						<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">詳細介紹</a>
-						<!--end full quick view block-->
-					</div>
-
-
-					<div class="right-block">
-						<div class="caption">
-							<h4><a href="product.html">無極能量石-項鍊(B款)</a></h4>
-							<!-- <div class="ratings">
-								<div class="rating-box">
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-								</div>
-							</div> -->
-
-							<div class="price">
-								<span class="price-new">$74.00</span>
-								<span class="price-old">$122.00</span>
-								<!-- <span class="label label-percent">-40%</span> -->
-							</div>
-							<div class="description item-desc hidden">
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l..</p>
-							</div>
-						</div>
-
-						  <div class="button-group">
-								<button class="btn btn-info" type="button" data-toggle="tooltip" title="詳細介紹" onclick="cart.add('42', '1');"><i class="fa fa-list-ul"></i> <span class="hidden-xs">詳細介紹</span></button>
-								<button class="btn btn-warning pull-right" type="button" data-toggle="tooltip" title="加入購物車" ><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入購物車</span></button>
-						  </div>
-					</div><!-- right block -->
-
-				</div>
-			</div>
-			<div class="product-layout ">
-				<div class="product-item-container">
-					<div class="left-block">
-						<div class="product-image-container second_img ">
-							<img src="../../image/PN0000028/PN0000028-7.jpg"  alt="Apple Cinema 30&quot;" class="img-responsive" />
-							<img src="../../image/PN0000028/PN0000028-8.jpg"  alt="Apple Cinema 30&quot;" class="img_0 img-responsive" />
-						</div>
-						<!--Sale Label-->
-						<!-- <span class="label label-sale">Sale</span> -->
-						<!--full quick view block-->
-						<a class="quickview iframe-link visible-lg" data-fancybox-type="iframe"  href="#">  詳細介紹</a>
-						<!--end full quick view block-->
-					</div>
-
-
-					<div class="right-block">
-						<div class="caption">
-							<h4><a href="product.html">無極能量石-手環(男)</a></h4>
-							<!-- <div class="ratings">
-								<div class="rating-box">
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-									<span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-								</div>
-							</div> -->
-
-							<div class="price">
-								<span class="price-new">$74.00</span>
-								<span class="price-old">$122.00</span>
-								<!-- <span class="label label-percent">-40%</span> -->
-							</div>
-							<div class="description item-desc hidden">
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l..</p>
-							</div>
-						</div>
-
-						  <div class="button-group">
-								<button class="btn btn-info" type="button" data-toggle="tooltip" title="詳細介紹" onclick="cart.add('42', '1');"><i class="fa fa-list-ul"></i> <span class="hidden-xs">詳細介紹</span></button>
-								<button class="btn btn-warning pull-right" type="button" data-toggle="tooltip" title="加入購物車" ><i class="fa fa-shopping-cart"></i> <span class="hidden-xs">加入購物車</span></button>
-						  </div>
-					</div><!-- right block -->
-
-				</div>
-			</div>
-		</div>
-	</div>
 				</div>
 			</div>
 		</div>
@@ -986,30 +801,31 @@
 	  <section class="footer-top">
 	    <div class="container content">
 	      <div class="row">
-	        <div class="col-sm-6 col-md-3 box-information">
-	          <div class="module clearfix">
-	            <h3 class="modtitle">相關資訊</h3>
-	            <div class="modcontent">
-	              <ul class="menu">
-	                <li><a href="#">關於XXX</a></li>
-	                <li><a href="#">常見問題</a></li>
-	                <li><a href="#">聯繫客服</a></li>
-	                <li><a href="#">line@帳號</a></li>
-	              </ul>
-	            </div>
-	          </div>
-	        </div>
+					<div class="col-sm-6 col-md-3 box-information">
+						<div class="module clearfix">
+							<h3 class="modtitle">相關資訊</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="../../company_information/aboutus.html">關於我們</a></li>
+									<li><a href="../../company_information/Q&A.html">常見問題</a></li>
+									<li><a href="../../company_information/contact.html">聯繫我們</a></li>
+									<li><a href="javascript:void(0);" onclick="app_download();">App下載</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
 
 	        <div class="col-sm-6 col-md-3 box-service">
 	          <div class="module clearfix">
 	            <h3 class="modtitle">消費者指南</h3>
 	            <div class="modcontent">
 	              <ul class="menu">
-	                <li><a href="#">註冊帳戶</a></li>
-	                <li><a href="#">購買教學</a></li>
-	                <li><a href="#">付款方式</a></li>
-	                <li><a href="#">國際運送</a></li>
-	                <li><a href="#">退換貨處理</a></li>
+	                <li><a href="../../company_information/registered.html">註冊帳戶</a></li>
+	                <li><a href="../../company_information/howtobuy.html">購買教學</a></li>
+	                <li><a href="../../company_information/howtopay.html">付款方式</a></li>
+	                <li><a href="../../company_information/internationalshipping.html">國際運送</a></li>
+	                <li><a href="../../company_information/return&exchange.html">退換貨處理</a></li>
 	              </ul>
 	            </div>
 	          </div>
@@ -1020,15 +836,16 @@
 	            <h3 class="modtitle">商家指南</h3>
 	            <div class="modcontent">
 	              <ul class="menu">
-	                <li><a href="#">成為商家</a></li>
-	                <li><a href="#">商家條款</a></li>
-	                <li><a href="#">物流服務</a></li>
+	                <li><a href="../../company_information/shopjoin.html">成為商家</a></li>
+	                <li><a href="../../company_information/shopterms.html">商家條款</a></li>
+	                <li><a href="../../company_information/logistics.html">物流服務</a></li>
 	                <!-- <li><a href="#"></a></li> -->
 	                <!-- <li><a href="#" target="_blank">Our Blog</a></li> -->
 	              </ul>
 	            </div>
 	          </div>
 	        </div>
+
 
 	        <div class="col-sm-6 col-md-3 collapsed-block ">
 	          <div class="module clearfix">
@@ -1044,7 +861,7 @@
 	        </div>
 
 	        <!-- <div class="col-sm-12 collapsed-block footer-links">
-	          <div class="module clearfix">
+	          <div class="module clearfix" style="text-align:center">
 	            <div class="modcontent">
 	              <hr class="footer-lines">
 	              <div class="footer-directory-title">
@@ -1086,7 +903,24 @@
 	    </div>
 	  </section>
 	  <!-- /Footer Top Container -->
+	<div class="row">
+		<div class="col-sm-12 col-md-12 collapsed-block ">
+			<div class="module clearfix">
+				<h3 class="modtitle"></h3>
+				<div class="modcontent" style="text-align:center;color:white">
+					<hr>
+					<ul class="contact-address1">
+						<li>
+							<h3><b>|<a href="https://www.facebook.com/madtownbarbell/" target="_blank">Madtown Barbell 健身房</a></b>|</h3>
+						</li>
+					</ul>
 
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 	  <!-- Footer Bottom Container -->
 	  <div class="footer-bottom-block ">
 	    <div class=" container">
@@ -1225,6 +1059,39 @@
 	<script type="text/javascript" src="../../js/themejs/addtocart.js"></script>
 	<script type="text/javascript" src="../../js/themejs/application.js"></script>
 	<script type="text/javascript" src="../../js/themejs/cpanel.js"></script>
+	<script type="text/javascript" src="../../js/sweetalert2.all.min.js"></script>
+	<script type="text/javascript" src="../../js/custom.js"></script>
+	<style media="screen">
+		.swal2-popup{
+			width: 65em;
+			background-color: rgba(0, 0, 0, 0.0);
 
+		}
+	</style>
+	<script type="text/javascript">
+	// App下載的彈跳視窗
+	function app_download(){
+		var consumer = 'consumer';
+		var card = "<div class='row'>"+
+								"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-消費者</h2><img src='../../image/qr_app/consumer1.png' class='img-responsive' onclick=qr('consumer') title='點擊此處可連至此APP詳細內容'></div>"+
+								"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-會員</h2><img src='../../image/qr_app/member1.png' class='img-responsive' onclick=qr('member') title='點擊此處可連至此APP詳細內容'></div>"+
+								"<div class='col-lg-4'><h2 style='color:white;font-weight: 1000;'>旺旺云-店家</h2><img src='../../image/qr_app/store1.png' class='img-responsive' onclick=qr('store') title='點擊此處可連至此APP詳細內容'>"+
+								"</div>"+
+								"</div>";
+					swal({
+						html: card,
+						showCloseButton: false,
+						showCancelButton: false,
+						showConfirmButton: false,
+						focusConfirm: false,
+						confirmButtonText:
+						'<i class="fa fa-thumbs-up"></i> Great!',
+						confirmButtonAriaLabel: 'Thumbs up, great!',
+						cancelButtonText:
+						'<i class="fa fa-thumbs-down"></i>',
+						cancelButtonAriaLabel: 'Thumbs down',
+					});
+	}
+	</script>
 </body>
 </html>
