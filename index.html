@@ -52,6 +52,11 @@
 	n=y.getElementsByTagName(e)[0];n.parentNode.insertBefore(i,n);
 	})(document,'script','https://4.cami.yesing.com/patrol/slide/operator/image/wanwanton958?ft=rd');
 	</script> -->
+
+
+
+
+
 	<style media="screen">
 		.header-center{
 			padding: 10px 0;
@@ -80,13 +85,14 @@
 			<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden">
 			<div class="form-group currencies-block">
 			 <form action="index.html" method="post" enctype="multipart/form-data" id="currency">
-				<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-				 <span class="icon icon-credit "></span>繁體中文<span class="fa fa-angle-down"></span>
-				</a>
+<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
+				 <!-- <span class="icon icon-credit "></span> -->
+				 <a id="translateLink">转换为简体</a>
+</a>
 				<ul class="dropdown-menu btn-xs">
-				 <li> <a href="#">簡體中文</a></li>
-				 <li> <a href="#">英文</a></li>
-				 <!-- <li> <a href="#">(US$ )&nbsp;US Dollar </a></li> -->
+				 <!-- <li> <a href="#">簡體中文</a></li> -->
+				 <li><a id="change">轉換為英文</a></li>
+
 				</ul>
 			 </form>
 			</div>
@@ -2971,5 +2977,21 @@ function ConsiderLimits() {
 }
 
 </script>
+<!-- 繁簡轉換 -->
+<script src="js/tw_cn.js"></script>
+<script>
+var defaultEncoding = 1; // 預設語言：1-繁體中文 | 2-简体中文
+var translateDelay = 0;
+var cookieDomain = "http://localhost/wanwanton_shop/index.html";	// 修改爲你的部落格地址
+var msgToTraditionalChinese = "轉換爲繁體";	// 簡轉繁時所顯示的文字
+var msgToSimplifiedChinese = "转换为简体"; 	// 繁转简时所显示的文字
+var translateButtonId = "translateLink";	// 「轉換」<A>鏈接標籤ID
+translateInitilization();
+</script>
+<!-- 繁簡轉換end -->
+
+
+
+
 </body>
 </html>
